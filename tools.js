@@ -171,5 +171,9 @@ const TOOLS = [
   { id:"lovable", name:"Lovable", category:"AI Coding", price:"Freemium", tier:"freemium", rating:4.7,
     desc:"The famous 'vibe coding' platform: describe your idea in plain language and Lovable builds a full-stack web app in real time — UI, database, authentication, hosting and payments all included. Free plan comes with daily build credits and free publishing.",
     earning:"Build websites and web apps for clients on Fiverr and Upwork with zero coding, or launch your own micro-SaaS and charge monthly subscriptions.",
-    url:"https://lovable.dev", trending:true, popularity:87 }
+    url:"https://lovable.dev", trending:true, popularity:87 },
+  { id:"gamma", name:"Gamma", category:"AI Business", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"AI presentation maker that turns one prompt into a polished deck, doc or website in minutes — smart layouts, AI images and charts built in. Free plan with 400 credits, no card required; Plus from about $10/mo.",
+    earning:"Sell investor pitch decks, sales presentations and course slide sets to startups and creators — design a full deck in minutes and charge per-deck fees.",
+    url:"https://gamma.app", trending:true, popularity:84 }
 ];

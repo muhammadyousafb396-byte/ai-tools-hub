@@ -42,7 +42,7 @@
 
   function adHTML() {
     // In-feed ad slot — when AdSense is active, replace the placeholder below with:
-    // <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3045520642994409" data-ad-slot="INFEED_SLOT_ID" data-ad-format="fluid" data-ad-layout-key="-6t+ed+2i-1n-4w"></ins>
+    // <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7410698728762849" data-ad-slot="INFEED_SLOT_ID" data-ad-format="fluid" data-ad-layout-key="-6t+ed+2i-1n-4w"></ins>
     // plus: (adsbygoogle = window.adsbygoogle || []).push({});
     return (
       '<div class="ad-slot ad-infeed" aria-hidden="true"><span>Advertisement</span></div>'
