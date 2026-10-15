@@ -175,5 +175,9 @@ const TOOLS = [
   { id:"gamma", name:"Gamma", category:"AI Business", price:"Freemium", tier:"freemium", rating:4.6,
     desc:"AI presentation maker that turns one prompt into a polished deck, doc or website in minutes — smart layouts, AI images and charts built in. Free plan with 400 credits, no card required; Plus from about $10/mo.",
     earning:"Sell investor pitch decks, sales presentations and course slide sets to startups and creators — design a full deck in minutes and charge per-deck fees.",
-    url:"https://gamma.app", trending:true, popularity:84 }
+    url:"https://gamma.app", trending:true, popularity:84 },
+  { id:"openai-dots", name:"OpenAI Dots", category:"AI Business", price:"ChatGPT Pro", tier:"paid", rating:4.7,
+    desc:"OpenAI's always-on AI agents (launched at DevDay, Sep 29 2026): each Dot gets its own cloud computer and browser, keeps working 24/7 after you close ChatGPT, connects to 4,000+ apps, and remembers context — 1 million dots were already running within two weeks.",
+    earning:"Sell always-on agent setups to businesses — ongoing research, monitoring and workflow automation that runs while they sleep, on a monthly retainer.",
+    url:"https://openai.com/index/introducing-dots/", trending:true, popularity:93 }
 ];

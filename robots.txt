@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ai-tools-hub-web.netlify.app/sitemap.xml
+Sitemap: https://muhammadyousafb396-byte.github.io/ai-tools-hub/sitemap.xml
