@@ -179,5 +179,9 @@ const TOOLS = [
   { id:"openai-dots", name:"OpenAI Dots", category:"AI Business", price:"ChatGPT Pro", tier:"paid", rating:4.7,
     desc:"OpenAI's always-on AI agents (launched at DevDay, Sep 29 2026): each Dot gets its own cloud computer and browser, keeps working 24/7 after you close ChatGPT, connects to 4,000+ apps, and remembers context — 1 million dots were already running within two weeks.",
     earning:"Sell always-on agent setups to businesses — ongoing research, monitoring and workflow automation that runs while they sleep, on a monthly retainer.",
-    url:"https://openai.com/index/introducing-dots/", trending:true, popularity:93 }
+    url:"https://openai.com/index/introducing-dots/", trending:true, popularity:93 },
+  { id:"sora-2", name:"Sora 2", category:"AI Video", price:"Freemium", tier:"freemium", rating:4.8,
+    desc:"OpenAI's flagship 2026 video-and-audio model: cinematic clips with realistic physics, synchronized dialogue and sound effects, plus 'characters' that put you inside any scene after a one-time likeness recording. Launched Sep 30, 2026 with a free invite-based social iOS app (US/Canada rollout) and Sora 2 Pro for ChatGPT Pro users.",
+    earning:"Sell viral AI video ads, cameo-style promos and faceless shorts to brands and creators.",
+    url:"https://sora.com", trending:true, popularity:96 }
 ];
