@@ -183,5 +183,9 @@ const TOOLS = [
   { id:"sora-2", name:"Sora 2", category:"AI Video", price:"Freemium", tier:"freemium", rating:4.8,
     desc:"OpenAI's flagship 2026 video-and-audio model: cinematic clips with realistic physics, synchronized dialogue and sound effects, plus 'characters' that put you inside any scene after a one-time likeness recording. Launched Sep 30, 2026 with a free invite-based social iOS app (US/Canada rollout) and Sora 2 Pro for ChatGPT Pro users.",
     earning:"Sell viral AI video ads, cameo-style promos and faceless shorts to brands and creators.",
-    url:"https://sora.com", trending:true, popularity:96 }
+    url:"https://sora.com", trending:true, popularity:96 },
+  { id:"muse-small-business", name:"Muse for Small Business", category:"AI Business", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"Meta's AI agent for business owners (launched Sep 29, 2026): give it a goal like \"find new customers\" and it plans and executes across 15+ connected tools — Shopify, Stripe, QuickBooks, Canva, Slack — plus your Instagram analytics, Facebook Page and Meta ad account. Nothing publishes, sends or spends without your approval.",
+    earning:"Run a one-person agency: sell managed growth plans where Muse drafts ad campaigns, analyzes sales data and flags odd expenses while you charge a monthly retainer.",
+    url:"https://muse.ai", trending:true, popularity:90 }
 ];
