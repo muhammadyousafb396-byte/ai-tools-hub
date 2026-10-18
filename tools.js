@@ -187,5 +187,9 @@ const TOOLS = [
   { id:"muse-small-business", name:"Muse for Small Business", category:"AI Business", price:"Freemium", tier:"freemium", rating:4.6,
     desc:"Meta's AI agent for business owners (launched Sep 29, 2026): give it a goal like \"find new customers\" and it plans and executes across 15+ connected tools — Shopify, Stripe, QuickBooks, Canva, Slack — plus your Instagram analytics, Facebook Page and Meta ad account. Nothing publishes, sends or spends without your approval.",
     earning:"Run a one-person agency: sell managed growth plans where Muse drafts ad campaigns, analyzes sales data and flags odd expenses while you charge a monthly retainer.",
-    url:"https://muse.ai", trending:true, popularity:90 }
+    url:"https://muse.ai", trending:true, popularity:90 },
+  { id:"gemini-agent", name:"Google Gemini Agent", category:"AI Business", price:"Freemium", tier:"freemium", rating:4.7,
+    desc:"Google's universal AI agent for work (announced Oct 8, 2026): give it an outcome and it plans and executes — answers questions, handles knowledge work, creates images and media, writes and runs code — running persistently in the cloud inside Workspace, Microsoft 365 and Slack. It routes each job to the best model (Gemini or Claude) and can spawn sub-agents plus persistent coworker agents with their own email, calendar and Drive.",
+    earning:"Sell AI-automation consulting to companies: deploy Gemini agent workflows that clear inboxes, draft reports and connect Salesforce, Shopify and Notion on a monthly retainer.",
+    url:"https://gemini.google.com", trending:true, popularity:92 }
 ];
