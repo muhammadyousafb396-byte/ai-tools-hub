@@ -191,5 +191,9 @@ const TOOLS = [
   { id:"gemini-agent", name:"Google Gemini Agent", category:"AI Business", price:"Freemium", tier:"freemium", rating:4.7,
     desc:"Google's universal AI agent for work (announced Oct 8, 2026): give it an outcome and it plans and executes — answers questions, handles knowledge work, creates images and media, writes and runs code — running persistently in the cloud inside Workspace, Microsoft 365 and Slack. It routes each job to the best model (Gemini or Claude) and can spawn sub-agents plus persistent coworker agents with their own email, calendar and Drive.",
     earning:"Sell AI-automation consulting to companies: deploy Gemini agent workflows that clear inboxes, draft reports and connect Salesforce, Shopify and Notion on a monthly retainer.",
-    url:"https://gemini.google.com", trending:true, popularity:92 }
+    url:"https://gemini.google.com", trending:true, popularity:92 },
+  { id:"band-dev", name:"BAND for Developers", category:"AI Coding", price:"Freemium", tier:"freemium", rating:4.5,
+    desc:"2026's coordination layer for AI coding agents (launched Oct 15, 2026 by Thenvoi AI): BAND Desktop + CLI gives Claude Code, OpenAI Codex CLI, GitHub Copilot and OpenCode one shared workspace — agents share context, @mention each other, delegate tasks and hand off work without a human relaying between terminal tabs. Free to start; bring your own API keys.",
+    earning:"Sell multi-agent dev-team setups to startups and agencies — wire up fleets of coding agents that plan, build and ship together, and charge a setup fee plus a monthly retainer.",
+    url:"https://www.band.ai/use-cases/band-desktop", trending:true, popularity:90 }
 ];
