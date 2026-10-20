@@ -195,5 +195,9 @@ const TOOLS = [
   { id:"band-dev", name:"BAND for Developers", category:"AI Coding", price:"Freemium", tier:"freemium", rating:4.5,
     desc:"2026's coordination layer for AI coding agents (launched Oct 15, 2026 by Thenvoi AI): BAND Desktop + CLI gives Claude Code, OpenAI Codex CLI, GitHub Copilot and OpenCode one shared workspace — agents share context, @mention each other, delegate tasks and hand off work without a human relaying between terminal tabs. Free to start; bring your own API keys.",
     earning:"Sell multi-agent dev-team setups to startups and agencies — wire up fleets of coding agents that plan, build and ship together, and charge a setup fee plus a monthly retainer.",
-    url:"https://www.band.ai/use-cases/band-desktop", trending:true, popularity:90 }
+    url:"https://www.band.ai/use-cases/band-desktop", trending:true, popularity:90 },
+  { id:"inception-mercury-3", name:"Mercury 3", category:"AI Writing", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"Inception Labs' flagship 2026 diffusion LLM (launched Oct 19, 2026): generates text in parallel at 1,000+ tokens per second with a 1M-token context, built for real-time writing tools, tutors, voice agents and coding agents. OpenAI-API compatible; new accounts get 100 million free tokens and 50% off launch pricing.",
+    earning:"Build and sell real-time AI apps and agent services on the fastest cheap LLM API — near-zero inference costs mean fat margins on automation services for clients.",
+    url:"https://www.inceptionlabs.ai", trending:true, popularity:85 }
 ];
