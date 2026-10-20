@@ -199,5 +199,6 @@ const TOOLS = [
   { id:"inception-mercury-3", name:"Mercury 3", category:"AI Writing", price:"Freemium", tier:"freemium", rating:4.6,
     desc:"Inception Labs' flagship 2026 diffusion LLM (launched Oct 19, 2026): generates text in parallel at 1,000+ tokens per second with a 1M-token context, built for real-time writing tools, tutors, voice agents and coding agents. OpenAI-API compatible; new accounts get 100 million free tokens and 50% off launch pricing.",
     earning:"Build and sell real-time AI apps and agent services on the fastest cheap LLM API — near-zero inference costs mean fat margins on automation services for clients.",
-    url:"https://www.inceptionlabs.ai", trending:true, popularity:85 }
+    url:"https://www.inceptionlabs.ai", trending:true, popularity:85,
+    img:"images/tools/inception-mercury-3.jpg" }
 ];
