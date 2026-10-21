@@ -4,6 +4,12 @@
 
   var state = { query: "", category: "All", sort: "popular" };
 
+  // Support the WebSite SearchAction target: /?q=<term> pre-fills the search.
+  try {
+    var qParam = new URLSearchParams(window.location.search).get("q");
+    if (qParam) state.query = qParam;
+  } catch (e) { /* older browsers: ignore */ }
+
   var pillsEl = document.getElementById("pills");
   var gridEl = document.getElementById("toolsGrid");
   var trendingEl = document.getElementById("trendingGrid");
@@ -35,7 +41,7 @@
         '<p class="desc">' + esc(tool.desc) + "</p>" +
         '<p class="earning">💰 <strong>Earning angle:</strong> ' + esc(tool.earning) + "</p>" +
         '<a class="visit-btn" href="' + esc(tool.url) + '" target="_blank" rel="noopener">Visit Tool →</a>' +
-        '<a class="review-link" href="/tools/' + esc(tool.id) + '/">Read full review →</a>' +
+        '<a class="review-link" href="tools/' + esc(tool.id) + '/">Read full review →</a>' +
       "</article>"
     );
   }
@@ -120,5 +126,6 @@
   });
 
   renderPills();
+  if (state.query && searchEl) searchEl.value = state.query;
   render();
 })();
