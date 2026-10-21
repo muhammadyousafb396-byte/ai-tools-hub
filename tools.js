@@ -200,5 +200,10 @@ const TOOLS = [
     desc:"Inception Labs' flagship 2026 diffusion LLM (launched Oct 19, 2026): generates text in parallel at 1,000+ tokens per second with a 1M-token context, built for real-time writing tools, tutors, voice agents and coding agents. OpenAI-API compatible; new accounts get 100 million free tokens and 50% off launch pricing.",
     earning:"Build and sell real-time AI apps and agent services on the fastest cheap LLM API — near-zero inference costs mean fat margins on automation services for clients.",
     url:"https://www.inceptionlabs.ai", trending:true, popularity:85,
-    img:"images/tools/inception-mercury-3.jpg" }
+    img:"images/tools/inception-mercury-3.jpg" },
+  { id:"wabi", name:"Wabi", category:"AI Business", price:"Free", tier:"free", rating:4.6,
+    desc:"Replika founder Eugenia Kuyda's new multiplayer AI assistant (opened to the public Oct 19, 2026): a messenger-style app on iOS, Android and Mac where each task or goal gets its own chat thread — and Wabi builds mini-apps inside them: calendars, trip plans, trackers and lists. Threads can be shared so partners, families and friends plan together in one place, with your chosen email, calendar and contact connections and approval required before important actions.",
+    earning:"Offer AI-planning services for families, travel groups and small teams — set up shared Wabi workspaces that organize trips, schedules and household tasks, and charge a setup fee plus a monthly coordination retainer.",
+    url:"https://wabi.ai", trending:true, popularity:93,
+    img:"images/tools/wabi.jpg" }
 ];
