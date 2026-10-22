@@ -205,5 +205,12 @@ const TOOLS = [
     desc:"Replika founder Eugenia Kuyda's new multiplayer AI assistant (opened to the public Oct 19, 2026): a messenger-style app on iOS, Android and Mac where each task or goal gets its own chat thread — and Wabi builds mini-apps inside them: calendars, trip plans, trackers and lists. Threads can be shared so partners, families and friends plan together in one place, with your chosen email, calendar and contact connections and approval required before important actions.",
     earning:"Offer AI-planning services for families, travel groups and small teams — set up shared Wabi workspaces that organize trips, schedules and household tasks, and charge a setup fee plus a monthly coordination retainer.",
     url:"https://wabi.ai", trending:true, popularity:93,
-    img:"images/tools/wabi.jpg" }
+    img:"images/tools/wabi.jpg" },
+
+  /* 2026-10-22: Zumie — self-editing screen recorder */
+  { id:"zumie", name:"Zumie", category:"AI Video", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"Chrome extension that records your screen and edits the footage itself: it tracks your clicks, typing and cursor, then builds smooth cinematic zoom-and-pan moves with zero keyframes. Timeline editor, one-drag Smart Blur for sensitive info, webcam bubble and clean backgrounds — everything renders locally with no account needed. Free plan includes every feature (small watermark); a $49 one-time lifetime license removes the watermark and unlocks HD/4K exports.",
+    earning:"Sell polished tutorial videos, course lessons and product demos to creators and businesses — pro Screen Studio-style edits with zero editing time.",
+    url:"https://zumie.io", trending:true, popularity:82,
+    img:"images/tools/zumie.jpg" }
 ];
