@@ -212,5 +212,12 @@ const TOOLS = [
     desc:"Chrome extension that records your screen and edits the footage itself: it tracks your clicks, typing and cursor, then builds smooth cinematic zoom-and-pan moves with zero keyframes. Timeline editor, one-drag Smart Blur for sensitive info, webcam bubble and clean backgrounds — everything renders locally with no account needed. Free plan includes every feature (small watermark); a $49 one-time lifetime license removes the watermark and unlocks HD/4K exports.",
     earning:"Sell polished tutorial videos, course lessons and product demos to creators and businesses — pro Screen Studio-style edits with zero editing time.",
     url:"https://zumie.io", trending:true, popularity:82,
-    img:"images/tools/zumie.jpg" }
+    img:"images/tools/zumie.jpg" },
+
+  /* 2026-10-23: Kimi — Moonshot AI open-weight assistant with zero-click slides */
+  { id:"kimi", name:"Kimi", category:"AI Writing", price:"Freemium", tier:"freemium", rating:4.7,
+    desc:"Moonshot AI's open-weight AI assistant that became a 2026 corporate sensation: a long-context chat that ingests entire annual reports and legal contract bundles without forgetting details, video-understanding that beats bigger proprietary models on benchmarks, an Agent mode that plans and runs multi-step work, and the killer Kimi Slides feature — it generates the actual boardroom-ready PPTX file (charts, layouts, localized in 50+ languages) instead of just an outline. The core chat is free with generous daily limits.",
+    earning:"Sell research-and-deck packages: feed Kimi a client's documents and deliver the boardroom-ready slide deck it builds, or offer long-document research summaries to businesses.",
+    url:"https://www.kimi.com", trending:true, popularity:94,
+    img:"images/tools/kimi.jpg" }
 ];
