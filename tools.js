@@ -219,5 +219,12 @@ const TOOLS = [
     desc:"Moonshot AI's open-weight AI assistant that became a 2026 corporate sensation: a long-context chat that ingests entire annual reports and legal contract bundles without forgetting details, video-understanding that beats bigger proprietary models on benchmarks, an Agent mode that plans and runs multi-step work, and the killer Kimi Slides feature — it generates the actual boardroom-ready PPTX file (charts, layouts, localized in 50+ languages) instead of just an outline. The core chat is free with generous daily limits.",
     earning:"Sell research-and-deck packages: feed Kimi a client's documents and deliver the boardroom-ready slide deck it builds, or offer long-document research summaries to businesses.",
     url:"https://www.kimi.com", trending:true, popularity:94,
-    img:"images/tools/kimi.jpg" }
+    img:"images/tools/kimi.jpg" },
+
+  /* 2026-10-24: Kling 4.0 — Kling AI flagship video model global launch */
+  { id:"kling-40", name:"Kling 4.0", category:"AI Video", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"Kling AI's new flagship video model (launched globally Oct 16, 2026): generates up to 30 seconds of cinematic video in a single pass from up to 15 reference assets and 10 keyframes, with image, video and audio references, 10-bit HDR 4K and 21:9 ultrawide output, plus agent access via Kling MCP and a CLI. Over 100 million users — and short films made entirely with Kling have won at the 2026 Cannes Lions.",
+    earning:"Sell cinematic AI video ads, product showcases and short films to brands and e-commerce stores — Cannes-winning quality without a film crew.",
+    url:"https://klingai.com", trending:true, popularity:93,
+    img:"images/tools/kling-40.jpg" }
 ];
