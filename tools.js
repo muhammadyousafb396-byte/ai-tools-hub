@@ -226,5 +226,12 @@ const TOOLS = [
     desc:"Kling AI's new flagship video model (launched globally Oct 16, 2026): generates up to 30 seconds of cinematic video in a single pass from up to 15 reference assets and 10 keyframes, with image, video and audio references, 10-bit HDR 4K and 21:9 ultrawide output, plus agent access via Kling MCP and a CLI. Over 100 million users — and short films made entirely with Kling have won at the 2026 Cannes Lions.",
     earning:"Sell cinematic AI video ads, product showcases and short films to brands and e-commerce stores — Cannes-winning quality without a film crew.",
     url:"https://klingai.com", trending:true, popularity:93,
-    img:"images/tools/kling-40.jpg" }
+    img:"images/tools/kling-40.jpg" },
+
+  /* 2026-10-25: ChatGPT Atlas — OpenAI's AI browser */
+  { id:"chatgpt-atlas", name:"ChatGPT Atlas", category:"AI Business", price:"Freemium", tier:"freemium", rating:4.7,
+    desc:"OpenAI's first AI browser (launched Oct 21, 2026): ChatGPT built into the browser itself — an 'Ask ChatGPT' sidebar on every page that summarizes, explains and compares what you're reading, optional browser memories that recall sites you visited, and an Agent Mode (preview, Plus/Pro/Business) that books, shops and fills forms for you with your approval. Free for all ChatGPT users on macOS at launch, with Windows, iOS and Android coming soon.",
+    earning:"Sell AI-browser productivity setups and agent-task services to businesses and creators — configure Atlas workflows that research, compare products and complete bookings on autopilot, and charge a setup fee plus a monthly retainer.",
+    url:"https://chatgpt.com/atlas", trending:true, popularity:95,
+    img:"images/tools/chatgpt-atlas.jpg" }
 ];
