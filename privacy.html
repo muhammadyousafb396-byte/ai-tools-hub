@@ -5,8 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Privacy Policy — AI Tools Hub</title>
 <meta name="description" content="Privacy Policy for AI Tools Hub — how we handle data, cookies, and advertising.">
+<link rel="canonical" href="https://muhammadyousafb396-byte.github.io/ai-tools-hub/privacy.html">
 <link rel="stylesheet" href="styles.css">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3045520642994409" crossorigin="anonymous"></script>
+<script>
+/* Tracking loads only after cookie consent (see the cookie banner). No
+   analytics or ad script runs before the visitor accepts. */
+(function(){
+  function loadTracking(){
+    if (window.__trkLoaded) return; window.__trkLoaded = true;
+    var a = document.createElement('script');
+    a.async = true; a.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3045520642994409';
+    a.crossOrigin = 'anonymous'; document.head.appendChild(a);
+  }
+  window.loadTracking = loadTracking;
+  try { if (localStorage.getItem('cookie-consent') === 'accepted') loadTracking(); } catch (e) {}
+})();
+</script>
 </head>
 <body>
 <header class="nav">
@@ -27,13 +41,12 @@
   <p><em>Last updated: October 13, 2026</em></p>
   <p>AI Tools Hub ("we", "our") respects your privacy. This policy explains what data we collect and how it's used.</p>
   <h2>Data We Collect</h2>
-  <p>We use Google Analytics to understand how visitors use our site (pages viewed, approximate location, device type). This data is aggregated and anonymous. We do not collect names, email addresses, or personal identifiers unless you contact us directly.</p>
+  <p>We use Google Analytics (GA4) on the site's main pages to understand aggregate use (pages viewed, approximate location, device type). Analytics loads only after you accept cookies in the banner — nothing is tracked before that. This data is aggregated and anonymous. We do not collect names, email addresses, or personal identifiers unless you contact us directly.</p>
   <h2>Cookies</h2>
-  <p>We use cookies for analytics and advertising. You can disable cookies in your browser settings, though some site features may not work correctly.</p>
+  <p>We use cookies for analytics only, and only after you accept them in the cookie banner. You can disable cookies in your browser settings, though some site features may not work correctly.</p>
   <h2>Advertising — Google AdSense</h2>
-  <p>We use Google AdSense to display ads. Google uses cookies (including the DoubleClick cookie) to serve ads based on your visits to this and other sites. You can opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" rel="noopener" target="_blank">Google Ads Settings</a>.</p>
-  <p>Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to this website. Google's use of advertising cookies enables it and its partners to serve ads based on your visit to this site and/or other sites on the Internet. You may opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" rel="noopener" target="_blank">Ads Settings</a>.</p>
-  <h2>External Links</h2>
+<p>No ads are currently displayed on this site, and no AdSense approval has been granted. An AdSense account script is present for possible future use and loads only after cookie consent, but no ad units are shown today. If advertising is enabled in the future, this section will be updated before any ads appear, and Google's advertising cookies (including the DoubleClick cookie) would then be used to serve ads based on your visits to this and other sites. You can opt out of personalized advertising by visiting <a href="https://www.google.com/settings/ads" rel="noopener" target="_blank">Google Ads Settings</a>.</p>
+<h2>External Links</h2>
   <p>Our site links to third-party AI tool websites. We are not responsible for the privacy practices of those external sites — please review their policies.</p>
   <h2>Children's Privacy</h2>
   <p>This site is not directed at children under 13, and we do not knowingly collect data from children.</p>
@@ -63,7 +76,7 @@
 <!-- Cookie consent banner (AdSense policy compliance) -->
 <div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;background:#1a1a2e;color:#fff;padding:14px 20px;z-index:9999;font-size:14px;box-shadow:0 -2px 10px rgba(0,0,0,.3);font-family:inherit;">
   <div style="max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;">
-    <span>We use cookies for analytics and ads. <a href="privacy.html" style="color:#7aa2ff;">Learn more</a></span>
+    <span>We use cookies for analytics. <a href="privacy.html" style="color:#7aa2ff;">Learn more</a></span>
     <button onclick="acceptCookies()" style="background:#4f7cff;color:#fff;border:none;padding:8px 24px;border-radius:6px;cursor:pointer;font-weight:600;font-size:14px;">Accept</button>
   </div>
 </div>
@@ -75,6 +88,7 @@
     }
     window.acceptCookies=function(){
       try{localStorage.setItem('cookie-consent','accepted');}catch(e){}
+      if (window.loadTracking) window.loadTracking();
       document.getElementById('cookie-banner').style.display='none';
     };
   }catch(e){}

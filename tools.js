@@ -4,7 +4,12 @@
    CATEGORIES), price (badge text), tier ("free"|"freemium"|"paid" — used
    by the "Free first" sort), rating (0-5), desc (1-2 lines),
    earning (one "how it makes money" line), url (official website),
-   trending (true = shows in Trending Now), popularity (higher = more popular). */
+   trending (true = shows in Trending Now), popularity (higher = more popular).
+   NOTE: the numeric "rating" field is stored for internal ordering only and
+   is NOT displayed anywhere — the site shows no user ratings or review
+   counts. After adding a tool, run: node build-seo.js (review pages +
+   sitemap) AND node build-index.js (static homepage cards, so listings
+   stay visible to search engines and no-JS visitors). */
 
 const CATEGORIES = [
   "All",

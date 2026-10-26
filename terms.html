@@ -7,7 +7,20 @@
 <meta name="description" content="Terms of Service for AI Tools Hub — rules for using our AI tools directory, intellectual property, advertising disclosure, and liability.">
 <link rel="canonical" href="https://muhammadyousafb396-byte.github.io/ai-tools-hub/terms.html">
 <link rel="stylesheet" href="styles.css">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3045520642994409" crossorigin="anonymous"></script>
+<script>
+/* Tracking loads only after cookie consent (see the cookie banner). No
+   analytics or ad script runs before the visitor accepts. */
+(function(){
+  function loadTracking(){
+    if (window.__trkLoaded) return; window.__trkLoaded = true;
+    var a = document.createElement('script');
+    a.async = true; a.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3045520642994409';
+    a.crossOrigin = 'anonymous'; document.head.appendChild(a);
+  }
+  window.loadTracking = loadTracking;
+  try { if (localStorage.getItem('cookie-consent') === 'accepted') loadTracking(); } catch (e) {}
+})();
+</script>
 </head>
 <body>
 <header class="nav">
@@ -31,13 +44,13 @@
   <p>By accessing AI Tools Hub ("the Site"), you agree to these Terms of Service. If you do not agree, please do not use the Site. We may update these terms at any time; continued use of the Site after changes constitutes acceptance of the updated terms.</p>
 
   <h2>2. Purpose of the Site</h2>
-  <p>AI Tools Hub is an independent directory and review resource for AI tools. We provide descriptions, ratings, pricing information, and guides to help visitors discover and evaluate AI software. We do not sell software, process payments, or provide customer support for the third-party tools listed.</p>
+  <p>AI Tools Hub is an independent directory and review resource for AI tools. We provide descriptions, pricing information, and guides to help visitors discover and evaluate AI software. We do not sell software, process payments, or provide customer support for the third-party tools listed.</p>
 
   <h2>3. Accuracy of Information</h2>
-  <p>We work to keep tool descriptions, pricing, and ratings accurate and current, but AI tools change frequently. We make no warranty that all information is complete, accurate, or up to date. Always verify pricing, features, and terms directly with the tool provider before making a purchase or signing up.</p>
+  <p>We work to keep tool descriptions and pricing accurate and current, but AI tools change frequently. We make no warranty that all information is complete, accurate, or up to date. Always verify pricing, features, and terms directly with the tool provider before making a purchase or signing up.</p>
 
   <h2>4. Intellectual Property</h2>
-  <p>All original content on this Site — including guides, reviews, ratings, and site design — is the property of AI Tools Hub unless otherwise noted. You may share links to our pages freely. You may not reproduce, republish, or scrape our content in bulk without written permission. Third-party tool names, logos, and trademarks belong to their respective owners and are used for identification only.</p>
+  <p>All original content on this Site — including guides, reviews, and site design — is the property of AI Tools Hub unless otherwise noted. You may share links to our pages freely. You may not reproduce, republish, or scrape our content in bulk without written permission. Third-party tool names, logos, and trademarks belong to their respective owners and are used for identification only.</p>
 
   <h2>5. Acceptable Use</h2>
   <p>You agree not to:</p>
@@ -49,10 +62,10 @@
   </ul>
 
   <h2>6. Third-Party Links and Tools</h2>
-  <p>The Site contains links to third-party AI tools and websites. We do not control these external sites and are not responsible for their content, privacy practices, pricing, or availability. Your use of any third-party tool is governed by that provider's own terms and policies. We may receive no compensation from listed tools unless explicitly disclosed.</p>
+  <p>The Site contains links to third-party AI tools and websites. We do not control these external sites and are not responsible for their content, privacy practices, pricing, or availability. Your use of any third-party tool is governed by that provider's own terms and policies. We currently receive no compensation from listed tools. If that changes, it will be disclosed here first.</p>
 
   <h2>7. Advertising Disclosure</h2>
-  <p>This Site displays advertisements served by Google AdSense and may participate in other advertising programs. Advertisements are clearly distinguishable from editorial content. The presence of an ad does not constitute an endorsement of the advertised product or service.</p>
+  <p>No advertisements are currently displayed on this Site, and no AdSense approval has been granted. If advertising is added in the future, ads will be clearly distinguishable from editorial content, and the presence of an ad will not constitute an endorsement of the advertised product or service.</p>
 
   <h2>8. Earnings and Results Disclaimer</h2>
   <p>Our guides discuss ways people use AI tools to earn money or grow businesses. These are informational examples, not guarantees. Individual results vary widely and depend on skill, effort, market conditions, and other factors. Nothing on this Site constitutes financial, business, or legal advice.</p>
@@ -87,7 +100,7 @@
 <!-- Cookie consent banner (AdSense policy compliance) -->
 <div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;background:#1a1a2e;color:#fff;padding:14px 20px;z-index:9999;font-size:14px;box-shadow:0 -2px 10px rgba(0,0,0,.3);font-family:inherit;">
   <div style="max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;">
-    <span>We use cookies for analytics and ads. <a href="privacy.html" style="color:#7aa2ff;">Learn more</a></span>
+    <span>We use cookies for analytics. <a href="privacy.html" style="color:#7aa2ff;">Learn more</a></span>
     <button onclick="acceptCookies()" style="background:#4f7cff;color:#fff;border:none;padding:8px 24px;border-radius:6px;cursor:pointer;font-weight:600;font-size:14px;">Accept</button>
   </div>
 </div>
@@ -99,6 +112,7 @@
     }
     window.acceptCookies=function(){
       try{localStorage.setItem('cookie-consent','accepted');}catch(e){}
+      if (window.loadTracking) window.loadTracking();
       document.getElementById('cookie-banner').style.display='none';
     };
   }catch(e){}

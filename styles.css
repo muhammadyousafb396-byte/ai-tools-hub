@@ -107,7 +107,7 @@ body {
 .section { max-width: 1200px; margin: 0 auto; padding: 44px 20px 8px; }
 .section h2 { font-size: 1.7rem; font-weight: 800; letter-spacing: -0.01em; }
 .section-sub { color: var(--muted); margin: 6px 0 22px; }
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 20px; }
 .trending-grid .tool-card { border: 1px solid rgba(168, 85, 247, 0.35); }
 
 /* ---------- Tool cards (glassmorphism) ---------- */
@@ -178,7 +178,10 @@ footer { border-top: 1px solid var(--card-border); margin-top: 56px; padding: 44
 
 /* ---------- Responsive ---------- */
 @media (max-width: 720px) {
-  .nav-links { display: none; }
+  /* Mobile nav: links wrap onto their own row instead of disappearing. */
+  .nav-inner { flex-wrap: wrap; gap: 12px; }
+  .nav-links { display: flex; flex-wrap: wrap; gap: 12px; width: 100%; margin-left: 0; order: 3; }
+  .search-icon { margin-left: auto; }
   .hero { padding: 52px 16px 36px; }
   .grid { grid-template-columns: 1fr; }
   .ad-sticky { display: block; }
@@ -187,6 +190,11 @@ footer { border-top: 1px solid var(--card-border); margin-top: 56px; padding: 44
   .sort-wrap { justify-content: flex-end; }
   .about-card { flex-direction: column; }
   .footer-cols { grid-template-columns: 1fr; gap: 24px; }
+}
+
+/* Keyboard focus */
+a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible {
+  outline: 3px solid rgba(79, 124, 255, 0.6); outline-offset: 2px;
 }
 
 /* SEO: review page link on cards */

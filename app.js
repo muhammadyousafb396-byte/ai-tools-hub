@@ -34,8 +34,7 @@
   function cardHTML(tool) {
     return (
       '<article class="tool-card">' +
-        '<div class="card-top"><h3>' + esc(tool.name) + "</h3>" +
-        '<span class="rating">★ ' + tool.rating.toFixed(1) + "</span></div>" +
+        '<div class="card-top"><h3>' + esc(tool.name) + "</h3></div>" +
         '<div class="badges"><span class="badge badge-cat">' + esc(tool.category) + "</span>" +
         priceBadge(tool) + "</div>" +
         '<p class="desc">' + esc(tool.desc) + "</p>" +
@@ -47,12 +46,11 @@
   }
 
   function adHTML() {
-    // In-feed ad slot — when AdSense is active, replace the placeholder below with:
+    // In-feed ad slot template — kept for a possible future approved AdSense
+    // account. No ad is rendered today (account not approved, no ad units),
+    // so this returns nothing instead of an empty ad box.
     // <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3045520642994409" data-ad-slot="INFEED_SLOT_ID" data-ad-format="fluid" data-ad-layout-key="-6t+ed+2i-1n-4w"></ins>
-    // plus: (adsbygoogle = window.adsbygoogle || []).push({});
-    return (
-      '<div class="ad-slot ad-infeed" aria-hidden="true"><span>Advertisement</span></div>'
-    );
+    return "";
   }
 
   function matches(tool) {
@@ -70,7 +68,7 @@
 
   function sortTools(list) {
     var arr = list.slice();
-    if (state.sort === "rating") arr.sort(function (a, b) { return b.rating - a.rating; });
+    if (state.sort === "name") arr.sort(function (a, b) { return a.name.localeCompare(b.name); });
     else if (state.sort === "free") arr.sort(function (a, b) {
       return (TIER_ORDER[a.tier] - TIER_ORDER[b.tier]) || (b.popularity - a.popularity);
     });
@@ -81,7 +79,8 @@
   function render() {
     // Trending (always the 6 flagged tools, unaffected by filters)
     var trending = TOOLS.filter(function (t) { return t.trending; })
-      .sort(function (a, b) { return b.popularity - a.popularity; });
+      .sort(function (a, b) { return b.popularity - a.popularity; })
+      .slice(0, 6);
     trendingEl.innerHTML = trending.map(cardHTML).join("");
 
     // All tools grid with filters + in-feed ad after every 8th card
@@ -101,7 +100,7 @@
   function renderPills() {
     pillsEl.innerHTML = CATEGORIES.map(function (c) {
       var active = c === state.category ? " active" : "";
-      return '<button class="pill' + active + '" data-cat="' + esc(c) + '" role="tab">' + esc(c) + "</button>";
+      return '<button class="pill' + active + '" data-cat="' + esc(c) + '" aria-pressed="' + (c === state.category) + '">' + esc(c) + "</button>";
     }).join("");
     pillsEl.querySelectorAll(".pill").forEach(function (btn) {
       btn.addEventListener("click", function () {
@@ -119,6 +118,14 @@
   sortEl.addEventListener("change", function () {
     state.sort = sortEl.value;
     render();
+  });
+  var resetEl = document.getElementById("resetFilters");
+  if (resetEl) resetEl.addEventListener("click", function () {
+    state.query = ""; state.category = "All"; state.sort = "popular";
+    searchEl.value = ""; sortEl.value = "popular";
+    renderPills();
+    render();
+    searchEl.focus();
   });
   document.getElementById("navSearchBtn").addEventListener("click", function () {
     searchEl.focus();

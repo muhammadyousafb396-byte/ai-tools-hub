@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Submission Received — Thanks! | AI Tools Hub</title>
-  <meta name="description" content="Thanks for submitting your AI tool to AI Tools Hub. Your submission is under review — approved tools go live within 48 hours.">
+  <meta name="description" content="Thanks for submitting your AI tool to AI Tools Hub. Your submission is under review — approved tools are published after review.">
   <meta name="robots" content="noindex">
   <link rel="icon" type="image/png" href="../assets/favicon-32.png">
   <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
@@ -22,15 +22,27 @@
     .btn:hover{opacity:0.88}
   </style>
   <!-- GOOGLE ADSENSE account script (Publisher ID: ca-pub-3045520642994409) -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3045520642994409" crossorigin="anonymous"></script>
-  <!-- Google tag (gtag.js) — GA4 Measurement ID: G-X6B0CMXKH9 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X6B0CMXKH9"></script>
+  
   <script>
+/* Tracking loads only after cookie consent (see the cookie banner). No
+   analytics or ad script runs before the visitor accepts. */
+(function(){
+  function loadTracking(){
+    if (window.__trkLoaded) return; window.__trkLoaded = true;
+    var a = document.createElement('script');
+    a.async = true; a.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3045520642994409';
+    a.crossOrigin = 'anonymous'; document.head.appendChild(a);
+    var g = document.createElement('script');
+    g.async = true; g.src = 'https://www.googletagmanager.com/gtag/js?id=G-X6B0CMXKH9';
+    document.head.appendChild(g);
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-X6B0CMXKH9');
-  </script>
+    window.gtag = function(){dataLayer.push(arguments);};
+    gtag('js', new Date()); gtag('config', 'G-X6B0CMXKH9');
+  }
+  window.loadTracking = loadTracking;
+  try { if (localStorage.getItem('cookie-consent') === 'accepted') loadTracking(); } catch (e) {}
+})();
+</script>
   <meta property="og:image" content="https://muhammadyousafb396-byte.github.io/ai-tools-hub/assets/og-default.jpg">
   <link rel="canonical" href="https://muhammadyousafb396-byte.github.io/ai-tools-hub/submit-thanks/">
 </head>
@@ -53,13 +65,13 @@
     <div class="thanks-wrap">
       <div class="thanks-ic">✅</div>
       <h1>Thanks — Your Submission Is <span class="gradient-text">Under Review</span></h1>
-      <p>We've received your tool submission. Approved tools go live within <strong style="color:var(--text)">48 hours</strong> — and we'll email you at the address you provided as soon as your listing is published.</p>
+      <p>We've received your tool submission. Approved tools are published after review — and we'll email you at the address you provided as soon as your listing is published.</p>
 
       <div class="thanks-card">
         <h3>What happens next?</h3>
         <ol>
           <li>We visit your tool and verify it's real, working and safe.</li>
-          <li>We write an honest listing with verified pricing and a rating.</li>
+          <li>We write an honest listing with pricing information.</li>
           <li>Your tool gets its own review page on AI Tools Hub — with a link back to your site.</li>
         </ol>
       </div>
@@ -74,7 +86,7 @@
       <div class="footer-cols">
         <div class="footer-col">
           <a href="../" class="logo footer-logo"><img src="../assets/logo.png" alt="AI Tools Hub logo" width="28" height="28"> <span>AI Tools Hub</span></a>
-          <p class="footer-note">An independent directory of the best AI tools in 2026 — real pricing, honest ratings, money-making ideas.</p>
+          <p class="footer-note">An independent directory of the best AI tools in 2026 — pricing information, categories, money-making ideas.</p>
         </div>
         <div class="footer-col">
           <h4>Explore</h4>
