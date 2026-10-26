@@ -228,6 +228,13 @@ const TOOLS = [
     url:"https://klingai.com", trending:true, popularity:93,
     img:"images/tools/kling-40.jpg" },
 
+  /* 2026-10-26: Adviserry — AI archive turning newsletters + YouTube into weekly actions */
+  { id:"adviserry", name:"Adviserry", category:"AI Business", price:"$14.99/mo", tier:"paid", rating:4.5,
+    desc:"AI-powered archive launched Oct 5, 2026 that gathers the newsletters and YouTube channels you already follow from Gmail and YouTube into one searchable place, then turns them into weekly, source-cited actions tied to your own projects — with an MCP server so Claude, Cursor and other AI assistants can search your archive directly. Core from $14.99/mo with a 7-day free trial.",
+    earning:"Sell newsletter-and-video intelligence briefings to founders and consultants — turn their unread subscriptions into weekly action lists they will pay a retainer for.",
+    url:"https://adviserry.com", trending:true, popularity:80,
+    img:"images/tools/adviserry.jpg" },
+
   /* 2026-10-25: ChatGPT Atlas — OpenAI's AI browser */
   { id:"chatgpt-atlas", name:"ChatGPT Atlas", category:"AI Business", price:"Freemium", tier:"freemium", rating:4.7,
     desc:"OpenAI's first AI browser (launched Oct 21, 2026): ChatGPT built into the browser itself — an 'Ask ChatGPT' sidebar on every page that summarizes, explains and compares what you're reading, optional browser memories that recall sites you visited, and an Agent Mode (preview, Plus/Pro/Business) that books, shops and fills forms for you with your approval. Free for all ChatGPT users on macOS at launch, with Windows, iOS and Android coming soon.",
