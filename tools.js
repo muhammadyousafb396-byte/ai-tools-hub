@@ -245,5 +245,12 @@ const TOOLS = [
     desc:"OpenAI's first AI browser (launched Oct 21, 2026): ChatGPT built into the browser itself — an 'Ask ChatGPT' sidebar on every page that summarizes, explains and compares what you're reading, optional browser memories that recall sites you visited, and an Agent Mode (preview, Plus/Pro/Business) that books, shops and fills forms for you with your approval. Free for all ChatGPT users on macOS at launch, with Windows, iOS and Android coming soon.",
     earning:"Sell AI-browser productivity setups and agent-task services to businesses and creators — configure Atlas workflows that research, compare products and complete bookings on autopilot, and charge a setup fee plus a monthly retainer.",
     url:"https://chatgpt.com/atlas", trending:true, popularity:95,
-    img:"images/tools/chatgpt-atlas.jpg" }
+    img:"images/tools/chatgpt-atlas.jpg" },
+
+  /* 2026-10-27: VoiceStudio — free open-source local voice cloning & dubbing */
+  { id:"voicestudio", name:"VoiceStudio", category:"AI Voice", price:"Free", tier:"free", rating:4.7,
+    desc:"Free, open-source desktop voice studio (launched 2026, 50,000+ GitHub stars): fully-local voice cloning from a 3-second sample, voice design from a text description, video dubbing, dictation, transcription and audiobook creation in 646 languages — no account, no cloud, no subscription. A paid Pro build ($99/yr or $299 once) adds a client-work licence.",
+    earning:"Offer local voice cloning, video dubbing and audiobook narration services to creators and businesses — private, on-device production with no per-minute cloud fees, and charge per project (use the Pro licence for client work).",
+    url:"https://voicestudio.sh", trending:true, popularity:90,
+    img:"images/tools/voicestudio.jpg" }
 ];
