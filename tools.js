@@ -252,5 +252,12 @@ const TOOLS = [
     desc:"Free, open-source desktop voice studio (launched 2026, 50,000+ GitHub stars): fully-local voice cloning from a 3-second sample, voice design from a text description, video dubbing, dictation, transcription and audiobook creation in 646 languages — no account, no cloud, no subscription. A paid Pro build ($99/yr or $299 once) adds a client-work licence.",
     earning:"Offer local voice cloning, video dubbing and audiobook narration services to creators and businesses — private, on-device production with no per-minute cloud fees, and charge per project (use the Pro licence for client work).",
     url:"https://voicestudio.sh", trending:true, popularity:90,
-    img:"images/tools/voicestudio.jpg" }
+    img:"images/tools/voicestudio.jpg" },
+
+  /* 2026-10-28: Retriever AI — free AI browser agent */
+  { id:"retriever-ai", name:"Retriever AI", category:"AI Business", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"Free AI browser agent (launched Oct 14, 2026, #3 Product of the Day) that works in your own Chrome browser or in cloud browsers hosted by rtrvr: describe a job in plain English and it clicks through real pages to find leads, send outreach, shortlist TikTok and Instagram creators, fill forms and prepare job applications. Free Mode includes the AI models with no API key or subscription needed (ad-supported, daily fair-use allowance); paid plans from $9.99/mo unlock schedules, API/MCP Chrome control and more.",
+    earning:"Sell lead-research, outreach and creator-shortlisting services to businesses and creators — let Retriever do the browser busywork and charge per campaign or on a monthly retainer.",
+    url:"https://rtrvr.ai", trending:true, popularity:83,
+    img:"images/tools/retriever-ai.jpg" }
 ];
