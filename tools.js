@@ -259,5 +259,12 @@ const TOOLS = [
     desc:"Free AI browser agent (launched Oct 14, 2026, #3 Product of the Day) that works in your own Chrome browser or in cloud browsers hosted by rtrvr: describe a job in plain English and it clicks through real pages to find leads, send outreach, shortlist TikTok and Instagram creators, fill forms and prepare job applications. Free Mode includes the AI models with no API key or subscription needed (ad-supported, daily fair-use allowance); paid plans from $9.99/mo unlock schedules, API/MCP Chrome control and more.",
     earning:"Sell lead-research, outreach and creator-shortlisting services to businesses and creators — let Retriever do the browser busywork and charge per campaign or on a monthly retainer.",
     url:"https://rtrvr.ai", trending:true, popularity:83,
-    img:"images/tools/retriever-ai.jpg" }
+    img:"images/tools/retriever-ai.jpg" },
+
+  /* 2026-10-29: Spira AI — Spira Maxima turns scripts into viral social videos */
+  { id:"spira-ai", name:"Spira AI", category:"AI Video", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"Spira AI's Spira Maxima model (launched Oct 5, 2026, #1 Product of the Week on Product Hunt for Oct 5–11) turns a plain-text script into a finished social video — AI presenter, on-trend B-roll, captions and music in one pass — then publishes it across TikTok, Instagram, X and more. Its autonomous AI Influencers catch trends before they peak, create content in your voice and post on schedule, built by teams behind Creatify AI, TikTok, CapCut, Meta, Snap and Midjourney. Free plan with no credit card; Creator starts at $15/mo.",
+    earning:"Sell done-for-you viral short-video channels to brands and creators — Spira writes, creates and publishes a daily video series, and you charge a monthly channel-management retainer.",
+    url:"https://spira.ai", trending:true, popularity:88,
+    img:"images/tools/spira-ai.jpg" }
 ];
