@@ -224,3 +224,9 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
   .hero-cta { flex-direction: column; align-items: stretch; text-align: center; }
   .hero-cta-btn { text-align: center; }
 }
+
+/* Sister-sites cross-links (2026-10-29) — footer block shared by all 4 sites */
+.sister-sites{margin-top:22px;padding-top:18px;border-top:1px solid var(--card-border);color:var(--muted);font-size:.85rem;line-height:1.7}
+.sister-sites strong{color:var(--text)}
+.sister-sites a{display:inline;color:var(--muted);text-decoration:underline;text-underline-offset:2px}
+.sister-sites a:hover{color:var(--text)}
