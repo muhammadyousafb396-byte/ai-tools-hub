@@ -266,5 +266,12 @@ const TOOLS = [
     desc:"Spira AI's Spira Maxima model (launched Oct 5, 2026, #1 Product of the Week on Product Hunt for Oct 5–11) turns a plain-text script into a finished social video — AI presenter, on-trend B-roll, captions and music in one pass — then publishes it across TikTok, Instagram, X and more. Its autonomous AI Influencers catch trends before they peak, create content in your voice and post on schedule, built by teams behind Creatify AI, TikTok, CapCut, Meta, Snap and Midjourney. Free plan with no credit card; Creator starts at $15/mo.",
     earning:"Sell done-for-you viral short-video channels to brands and creators — Spira writes, creates and publishes a daily video series, and you charge a monthly channel-management retainer.",
     url:"https://spira.ai", trending:true, popularity:88,
-    img:"images/tools/spira-ai.jpg" }
+    img:"images/tools/spira-ai.jpg" },
+
+  /* 2026-10-30: Jockey by TwelveLabs — video AI agent, search a whole library by meaning */
+  { id:"jockey", name:"Jockey by TwelveLabs", category:"AI Video", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"TwelveLabs' video AI agent (launched Oct 15, 2026, #1 Product of the Day on Oct 16): search an entire video and photo library by meaning — a person, a moment or an insight — with no tags or filenames, then assemble finished MP4 clips straight from your source footage. Works inside ChatGPT and Claude via API and MCP, built on the Marengo 3.5 and Pegasus 1.6 models, with a free plan to start.",
+    earning:"Sell video-library search, clip-finding and highlight-reel services to creators, editors and marketing teams — find the exact moment in hours of footage in seconds and charge per library or per project.",
+    url:"https://twelvelabs.io/jockey", trending:true, popularity:86,
+    img:"images/tools/jockey.jpg" }
 ];
