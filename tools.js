@@ -273,5 +273,12 @@ const TOOLS = [
     desc:"TwelveLabs' video AI agent (launched Oct 15, 2026, #1 Product of the Day on Oct 16): search an entire video and photo library by meaning — a person, a moment or an insight — with no tags or filenames, then assemble finished MP4 clips straight from your source footage. Works inside ChatGPT and Claude via API and MCP, built on the Marengo 3.5 and Pegasus 1.6 models, with a free plan to start.",
     earning:"Sell video-library search, clip-finding and highlight-reel services to creators, editors and marketing teams — find the exact moment in hours of footage in seconds and charge per library or per project.",
     url:"https://twelvelabs.io/jockey", trending:true, popularity:86,
-    img:"images/tools/jockey.jpg" }
+    img:"images/tools/jockey.jpg" },
+
+  /* 2026-10-31: Rill Browser — free AI-native Mac browser built around Claude Code & Codex */
+  { id:"rill-browser", name:"Rill Browser", category:"AI Coding", price:"Free", tier:"free", rating:4.6,
+    desc:"Free AI-native browser in beta (launched Oct 4, 2026) for macOS 14 or later on Apple silicon: press Cmd+E on any page and it becomes a task for the Claude Code or Codex agent you already use — Rill finds the right project from your agent history, passes the page context along, and the agent works while you keep browsing. Tabs sort themselves into themes, history becomes searchable days, and every project your agents touched appears on one map; a voice mode (hold Fn to talk) is in beta. Rill itself costs nothing and needs no new subscription or API keys — AI features run on your existing Claude Code or Codex plan, and tasks stay read-only until you allow edits and stop before any payment step.",
+    earning:"Sell faster dev and research services to clients — turn anything you find on the web into a coded task in one keypress, deliver projects without the copy-paste context-switching, and charge per project or on a monthly dev retainer.",
+    url:"https://rill.love/", trending:true, popularity:85,
+    img:"images/tools/rill-browser.jpg" }
 ];
