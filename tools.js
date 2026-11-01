@@ -280,5 +280,12 @@ const TOOLS = [
     desc:"Free AI-native browser in beta (launched Oct 4, 2026) for macOS 14 or later on Apple silicon: press Cmd+E on any page and it becomes a task for the Claude Code or Codex agent you already use — Rill finds the right project from your agent history, passes the page context along, and the agent works while you keep browsing. Tabs sort themselves into themes, history becomes searchable days, and every project your agents touched appears on one map; a voice mode (hold Fn to talk) is in beta. Rill itself costs nothing and needs no new subscription or API keys — AI features run on your existing Claude Code or Codex plan, and tasks stay read-only until you allow edits and stop before any payment step.",
     earning:"Sell faster dev and research services to clients — turn anything you find on the web into a coded task in one keypress, deliver projects without the copy-paste context-switching, and charge per project or on a monthly dev retainer.",
     url:"https://rill.love/", trending:true, popularity:85,
-    img:"images/tools/rill-browser.jpg" }
+    img:"images/tools/rill-browser.jpg" },
+
+  /* 2026-11-01: Manus 2.0 — general-purpose AI agent that finishes whole tasks */
+  { id:"manus", name:"Manus 2.0", category:"AI Business", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"General-purpose AI agent (Manus 2.0 launched Sep 28, 2026) that takes a plain-English outcome and delivers the finished work — research reports, slide decks, websites, spreadsheets and automations — by planning the steps, browsing the web and building in its own cloud computer while you do other work. The new Cascade agent harness is claimed by Manus to use 23.2% fewer tokens, finish 28.2% faster and cost 32% less than its previous system, and 2.0 adds a purchasable Cloud Computer for persistent projects, event-triggered Automations, a Studio timeline view, a Video Editor and Game Dev modes, plus Cue, a personal-agent app in free early access. Free plan with 300 daily credits; Pro starts at $20/mo.",
+    earning:"Sell done-for-you research, decks, websites and workflow automations to businesses and creators — take a brief, let Manus build the deliverable, and charge per project or on a monthly retainer.",
+    url:"https://manus.im", trending:true, popularity:91,
+    img:"images/tools/manus.jpg" }
 ];
