@@ -287,5 +287,12 @@ const TOOLS = [
     desc:"General-purpose AI agent (Manus 2.0 launched Sep 28, 2026) that takes a plain-English outcome and delivers the finished work — research reports, slide decks, websites, spreadsheets and automations — by planning the steps, browsing the web and building in its own cloud computer while you do other work. The new Cascade agent harness is claimed by Manus to use 23.2% fewer tokens, finish 28.2% faster and cost 32% less than its previous system, and 2.0 adds a purchasable Cloud Computer for persistent projects, event-triggered Automations, a Studio timeline view, a Video Editor and Game Dev modes, plus Cue, a personal-agent app in free early access. Free plan with 300 daily credits; Pro starts at $20/mo.",
     earning:"Sell done-for-you research, decks, websites and workflow automations to businesses and creators — take a brief, let Manus build the deliverable, and charge per project or on a monthly retainer.",
     url:"https://manus.im", trending:true, popularity:91,
-    img:"images/tools/manus.jpg" }
+    img:"images/tools/manus.jpg" },
+
+  /* 2026-11-02: FLUX 3 Image Klein — Black Forest Labs open-weights image model */
+  { id:"flux-3-image-klein", name:"FLUX 3 Image Klein", category:"AI Image", price:"From $0.009/image", tier:"freemium", rating:4.6,
+    desc:"Black Forest Labs' open-weights image model (released Oct 15, 2026): a 5.6B-parameter model that generates images from text, edits them from a plain instruction, and blends up to 10 reference images into one scene — with native 4K output, bounding-box layout control and pixel-perfect edits that leave the rest of the image untouched. It runs on a single consumer GPU (INT8 build from 8GB VRAM) with base and distilled checkpoints, FP8/INT8/NVFP4 builds, and ComfyUI support; the BFL API starts at $0.009 per 1K image. Weights are under the FLUX Kommunity License — check the model card's terms before commercial use.",
+    earning:"Sell AI image generation, photo editing and product-visual services to creators and businesses — run the open weights locally with no subscription, or build client work on the cheap per-image API, and charge per project or on a monthly retainer.",
+    url:"https://bfl.ai/models/flux-3-image-klein", trending:true, popularity:90,
+    img:"images/tools/flux-3-image-klein.jpg" }
 ];
