@@ -294,5 +294,12 @@ const TOOLS = [
     desc:"Black Forest Labs' open-weights image model (released Oct 15, 2026): a 5.6B-parameter model that generates images from text, edits them from a plain instruction, and blends up to 10 reference images into one scene — with native 4K output, bounding-box layout control and pixel-perfect edits that leave the rest of the image untouched. It runs on a single consumer GPU (INT8 build from 8GB VRAM) with base and distilled checkpoints, FP8/INT8/NVFP4 builds, and ComfyUI support; the BFL API starts at $0.009 per 1K image. Weights are under the FLUX Kommunity License — check the model card's terms before commercial use.",
     earning:"Sell AI image generation, photo editing and product-visual services to creators and businesses — run the open weights locally with no subscription, or build client work on the cheap per-image API, and charge per project or on a monthly retainer.",
     url:"https://bfl.ai/models/flux-3-image-klein", trending:true, popularity:90,
-    img:"images/tools/flux-3-image-klein.jpg" }
+    img:"images/tools/flux-3-image-klein.jpg" },
+
+  /* 2026-11-03: Sentient OS — on-device personal AI for Mac */
+  { id:"sentient-os", name:"Sentient OS", category:"AI Business", price:"Free", tier:"free", rating:4.6,
+    desc:"YC Fall 2026 on-device personal AI for Mac (launched Oct 27, 2026): a local model reads your notes, emails, messages, calendar, files and screenshots overnight and writes what it learns into plain Markdown files you own on your Mac. Its Sidekick takes over tasks with its own mouse cursor, and Double Tap drafts replies in your writing style — free and open source (AGPL-3.0), for Apple silicon Macs on macOS 15.4 or later.",
+    earning:"Sell personal-AI setup and productivity services to busy Mac users and small teams — configure Sentient OS to learn a client's inbox, calendar and files overnight, then charge a setup fee plus a monthly retainer for keeping their private on-device workflows running.",
+    url:"https://sentient-os.ai", trending:true, popularity:88,
+    img:"images/tools/sentient-os.jpg" }
 ];
