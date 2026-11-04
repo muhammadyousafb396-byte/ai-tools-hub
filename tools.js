@@ -301,5 +301,12 @@ const TOOLS = [
     desc:"YC Fall 2026 on-device personal AI for Mac (launched Oct 27, 2026): a local model reads your notes, emails, messages, calendar, files and screenshots overnight and writes what it learns into plain Markdown files you own on your Mac. Its Sidekick takes over tasks with its own mouse cursor, and Double Tap drafts replies in your writing style — free and open source (AGPL-3.0), for Apple silicon Macs on macOS 15.4 or later.",
     earning:"Sell personal-AI setup and productivity services to busy Mac users and small teams — configure Sentient OS to learn a client's inbox, calendar and files overnight, then charge a setup fee plus a monthly retainer for keeping their private on-device workflows running.",
     url:"https://sentient-os.ai", trending:true, popularity:88,
-    img:"images/tools/sentient-os.jpg" }
+    img:"images/tools/sentient-os.jpg" },
+
+  /* 2026-11-04: Onepin — agent layer for AI voice production */
+  { id:"onepin", name:"Onepin", category:"AI Voice", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"The agent layer for AI voice (launched Oct 2026, #1 Product of the Day in its launch week): bring a script and Onepin cleans it first — expanding prices, dates and abbreviations into spoken form — then routes each line to the best of 30+ commercial text-to-speech models from providers including ElevenLabs, OpenAI and Google, scores every line for accuracy, naturalness, noise and pronunciation against a 4-million-word pronunciation dictionary, and auto-fixes or regenerates the lines that fail before you ship. Ten languages, free seats, API/SDK/MCP access and SOC 2 Type II compliance; the Free plan gives 1,000 one-time credits with no card required, and Creator starts at $16/mo billed yearly.",
+    earning:"Sell production-ready voiceover services to creators and businesses — video narration, ads, courses, audiobooks and dubbing — and charge per project for clean, checked audio that needs no line-by-line re-listening to catch mispronounced names, prices and dates.",
+    url:"https://onepin.ai", trending:true, popularity:84,
+    img:"images/tools/onepin.jpg" }
 ];
