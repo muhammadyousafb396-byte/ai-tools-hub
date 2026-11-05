@@ -308,5 +308,12 @@ const TOOLS = [
     desc:"The agent layer for AI voice (launched Oct 2026, #1 Product of the Day in its launch week): bring a script and Onepin cleans it first — expanding prices, dates and abbreviations into spoken form — then routes each line to the best of 30+ commercial text-to-speech models from providers including ElevenLabs, OpenAI and Google, scores every line for accuracy, naturalness, noise and pronunciation against a 4-million-word pronunciation dictionary, and auto-fixes or regenerates the lines that fail before you ship. Ten languages, free seats, API/SDK/MCP access and SOC 2 Type II compliance; the Free plan gives 1,000 one-time credits with no card required, and Creator starts at $16/mo billed yearly.",
     earning:"Sell production-ready voiceover services to creators and businesses — video narration, ads, courses, audiobooks and dubbing — and charge per project for clean, checked audio that needs no line-by-line re-listening to catch mispronounced names, prices and dates.",
     url:"https://onepin.ai", trending:true, popularity:84,
-    img:"images/tools/onepin.jpg" }
+    img:"images/tools/onepin.jpg" },
+
+  /* 2026-11-05: Paradev — open-source workspace for running many coding agents in parallel */
+  { id:"paradev", name:"Paradev", category:"AI Coding", price:"Free", tier:"free", rating:4.6,
+    desc:"Open-source desktop workspace (formerly Superset) for running an army of coding agents in parallel: each task gets its own Git worktree and branch, so Claude Code, Codex, OpenCode and any other CLI agent can work at the same time without overwriting each other's files — with diff review, PR handling, scheduled automations, remote hosts and a phone app for checking diffs away from your desk. Free tier; Pro from $20/user/mo, and it never proxies your model calls — you use your own agent subscriptions and API keys.",
+    earning:"Sell parallel-agent development services to startups and agencies — run many coding agents at once to ship features, fix bugs and clear backlogs faster than a single-agent workflow, and charge per project or on a monthly dev retainer.",
+    url:"https://paradev.com", trending:true, popularity:87,
+    img:"images/tools/paradev.jpg" }
 ];
