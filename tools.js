@@ -315,5 +315,12 @@ const TOOLS = [
     desc:"Open-source desktop workspace (formerly Superset) for running an army of coding agents in parallel: each task gets its own Git worktree and branch, so Claude Code, Codex, OpenCode and any other CLI agent can work at the same time without overwriting each other's files — with diff review, PR handling, scheduled automations, remote hosts and a phone app for checking diffs away from your desk. Free tier; Pro from $20/user/mo, and it never proxies your model calls — you use your own agent subscriptions and API keys.",
     earning:"Sell parallel-agent development services to startups and agencies — run many coding agents at once to ship features, fix bugs and clear backlogs faster than a single-agent workflow, and charge per project or on a monthly dev retainer.",
     url:"https://paradev.com", trending:true, popularity:87,
-    img:"images/tools/paradev.jpg" }
+    img:"images/tools/paradev.jpg" },
+
+  /* 2026-11-06: Prospero — bloat-free native AI coding harness */
+  { id:"prospero", name:"Prospero", category:"AI Coding", price:"Free", tier:"free", rating:4.6,
+    desc:"Bloat-free native AI coding harness (launched Oct 31, 2026 by Chris Wellons): a single C++ executable with a snappy Dear ImGui docking interface that connects to local or remote models — OpenAI-compatible APIs (llama.cpp, vLLM, OpenRouter) and Anthropic's Messages API — and lets AI agents drive your computer to develop software, plowing through intermittent errors while unattended. It uses around two orders of magnitude fewer resources than web-stack harnesses, needs no daemon or server, and can run headless over ssh; no model provider is built in, so you bring your own. Free and public domain (Unlicense); a paid Professional Edition adds embedded remote engines.",
+    earning:"Sell lightweight AI-assisted development services — run coding agents on cheap local models or your own API keys with almost no machine overhead, and charge per project or on a monthly dev retainer.",
+    url:"https://github.com/skeeto/prospero", trending:true, popularity:86,
+    img:"images/tools/prospero.jpg" }
 ];
