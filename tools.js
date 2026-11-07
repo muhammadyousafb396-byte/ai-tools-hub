@@ -322,5 +322,12 @@ const TOOLS = [
     desc:"Bloat-free native AI coding harness (launched Oct 31, 2026 by Chris Wellons): a single C++ executable with a snappy Dear ImGui docking interface that connects to local or remote models — OpenAI-compatible APIs (llama.cpp, vLLM, OpenRouter) and Anthropic's Messages API — and lets AI agents drive your computer to develop software, plowing through intermittent errors while unattended. It uses around two orders of magnitude fewer resources than web-stack harnesses, needs no daemon or server, and can run headless over ssh; no model provider is built in, so you bring your own. Free and public domain (Unlicense); a paid Professional Edition adds embedded remote engines.",
     earning:"Sell lightweight AI-assisted development services — run coding agents on cheap local models or your own API keys with almost no machine overhead, and charge per project or on a monthly dev retainer.",
     url:"https://github.com/skeeto/prospero", trending:true, popularity:86,
-    img:"images/tools/prospero.jpg" }
+    img:"images/tools/prospero.jpg" },
+
+  /* 2026-11-07: Tencent Hy4 — flagship model with vision + computer use */
+  { id:"hy4", name:"Tencent Hy4", category:"AI Business", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"Tencent's flagship AI model (officially released Nov 4, 2026) — the first Hy model with vision and computer use: it reads fine-grained images and complex charts, then operates a computer through both the command line and graphical interfaces, with dedicated training for long-horizon professional software such as Blender and CAD, plus front-end and game development. Live on Tencent Cloud and OpenRouter at about $0.90 per million input tokens, with a free daily allowance in WorkBuddy until Nov 15, 2026; open-source weights are planned, with a cheaper Hy4 Flash coming soon.",
+    earning:"Sell AI desktop-automation services to businesses — let Hy4 drive Blender, CAD and office apps to finish real workflows, and charge per project or on a monthly retainer.",
+    url:"https://hy.tencent.com/research/hy4", trending:true, popularity:90,
+    img:"images/tools/hy4.jpg" }
 ];
