@@ -329,5 +329,12 @@ const TOOLS = [
     desc:"Tencent's flagship AI model (officially released Nov 4, 2026) — the first Hy model with vision and computer use: it reads fine-grained images and complex charts, then operates a computer through both the command line and graphical interfaces, with dedicated training for long-horizon professional software such as Blender and CAD, plus front-end and game development. Live on Tencent Cloud and OpenRouter at about $0.90 per million input tokens, with a free daily allowance in WorkBuddy until Nov 15, 2026; open-source weights are planned, with a cheaper Hy4 Flash coming soon.",
     earning:"Sell AI desktop-automation services to businesses — let Hy4 drive Blender, CAD and office apps to finish real workflows, and charge per project or on a monthly retainer.",
     url:"https://hy.tencent.com/research/hy4", trending:true, popularity:90,
-    img:"images/tools/hy4.jpg" }
+    img:"images/tools/hy4.jpg" },
+
+  /* 2026-11-08: Kino — code-first video editor where AI agents edit with you */
+  { id:"kino", name:"Kino", category:"AI Video", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"Code-first desktop video editor and media manager (relaunched Nov 4, 2026, YC S23) where you and your AI agents edit together: Claude Code, Codex, ChatGPT and Cursor drive a shared timeline through a plugin, while the app transcribes and describes your footage so every clip is searchable. Every edit, motion graphic and teammate comment is expressed as code (built on Remotion), reviewers leave comments on a link that lands back on the timeline, and projects import from Premiere or DaVinci Resolve. Mac, Windows and Ubuntu; the full editor is free forever with unlimited imports and exports, and Pro is $25 per editor per month.",
+    earning:"Sell AI-assisted video editing services to creators and brands — let Claude Code or Codex rough-cut footage, search transcripts and build motion graphics inside Kino's free editor, then charge per video or on a monthly editing retainer.",
+    url:"https://kino.ai", trending:true, popularity:88,
+    img:"images/tools/kino.jpg" }
 ];
