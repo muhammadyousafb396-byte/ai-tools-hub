@@ -336,5 +336,12 @@ const TOOLS = [
     desc:"Code-first desktop video editor and media manager (relaunched Nov 4, 2026, YC S23) where you and your AI agents edit together: Claude Code, Codex, ChatGPT and Cursor drive a shared timeline through a plugin, while the app transcribes and describes your footage so every clip is searchable. Every edit, motion graphic and teammate comment is expressed as code (built on Remotion), reviewers leave comments on a link that lands back on the timeline, and projects import from Premiere or DaVinci Resolve. Mac, Windows and Ubuntu; the full editor is free forever with unlimited imports and exports, and Pro is $25 per editor per month.",
     earning:"Sell AI-assisted video editing services to creators and brands — let Claude Code or Codex rough-cut footage, search transcripts and build motion graphics inside Kino's free editor, then charge per video or on a monthly editing retainer.",
     url:"https://kino.ai", trending:true, popularity:88,
-    img:"images/tools/kino.jpg" }
+    img:"images/tools/kino.jpg" },
+
+  /* 2026-11-09: Google Vids — Google's AI video creator, now with free Gemini Omni clips */
+  { id:"google-vids", name:"Google Vids", category:"AI Video", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"Google's AI-powered video creator and editor (Gemini Omni 1.2 Flash upgrade announced Nov 5, 2026): type a prompt and it generates 15-second video clips with synced audio, or build a full video from templates with AI avatars, voiceovers in 24 languages and auto-editing — free to try with any Google account, with up to three free 15-second AI videos a month; advanced features and higher limits come with Workspace or Google AI plans.",
+    earning:"Sell quick promo, explainer and social videos to small businesses — generate the clips free in Vids, add their branding and voiceover, and charge per video or on a monthly content retainer.",
+    url:"https://workspace.google.com/products/vids/", trending:true, popularity:89,
+    img:"images/tools/google-vids.jpg" }
 ];
