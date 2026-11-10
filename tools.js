@@ -343,5 +343,12 @@ const TOOLS = [
     desc:"Google's AI-powered video creator and editor (Gemini Omni 1.2 Flash upgrade announced Nov 5, 2026): type a prompt and it generates 15-second video clips with synced audio, or build a full video from templates with AI avatars, voiceovers in 24 languages and auto-editing — free to try with any Google account, with up to three free 15-second AI videos a month; advanced features and higher limits come with Workspace or Google AI plans.",
     earning:"Sell quick promo, explainer and social videos to small businesses — generate the clips free in Vids, add their branding and voiceover, and charge per video or on a monthly content retainer.",
     url:"https://workspace.google.com/products/vids/", trending:true, popularity:89,
-    img:"images/tools/google-vids.jpg" }
+    img:"images/tools/google-vids.jpg" },
+
+  /* 2026-11-10: agent-qa — source-available AI test automation for web, Android and iOS */
+  { id:"agent-qa", name:"agent-qa", category:"AI Coding", price:"Free", tier:"free", rating:4.6,
+    desc:"Source-available AI test automation (v0.3): write QA tests in plain-English YAML and let AI agents run them across web, Android and iOS — powered by Playwright and Appium, with a CLI, MCP server support and a local dashboard to watch every test run. Free with no platform fee and no per-seat charge; you only pay your own model and infrastructure costs.",
+    earning:"Sell automated QA testing services to startups and app teams — write plain-English test suites once, run them on every release, and charge per project or on a monthly QA retainer.",
+    url:"https://vostride.com", trending:true, popularity:85,
+    img:"images/tools/agent-qa.jpg" }
 ];
