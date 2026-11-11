@@ -350,5 +350,12 @@ const TOOLS = [
     desc:"Source-available AI test automation (v0.3): write QA tests in plain-English YAML and let AI agents run them across web, Android and iOS — powered by Playwright and Appium, with a CLI, MCP server support and a local dashboard to watch every test run. Free with no platform fee and no per-seat charge; you only pay your own model and infrastructure costs.",
     earning:"Sell automated QA testing services to startups and app teams — write plain-English test suites once, run them on every release, and charge per project or on a monthly QA retainer.",
     url:"https://vostride.com", trending:true, popularity:85,
-    img:"images/tools/agent-qa.jpg" }
+    img:"images/tools/agent-qa.jpg" },
+
+  /* 2026-11-11: Beacon — open-source self-improving memory for AI coding agents */
+  { id:"beacon", name:"Beacon", category:"AI Coding", price:"Free", tier:"free", rating:4.6,
+    desc:"Open-source, self-improving memory layer for AI coding agents (from Asymptote Labs, $5.5M seed): it captures your sessions across Claude Code, Cursor, Codex, OpenCode and 20+ other harnesses, then uses Jev to distill the high-signal fixes, corrections and debugging patterns into reusable skills — so every agent starts smarter than the last and you stop re-explaining your project every session. Free to start, no credit card, runs locally.",
+    earning:"Sell AI coding-agent setup and memory-system services to dev teams — install Beacon, build their reusable skill library from past sessions, and charge per setup or on a monthly optimisation retainer.",
+    url:"https://beacon.sh", trending:true, popularity:86,
+    img:"images/tools/beacon.jpg" }
 ];
