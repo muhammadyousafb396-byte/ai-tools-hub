@@ -357,5 +357,10 @@ const TOOLS = [
     desc:"Open-source, self-improving memory layer for AI coding agents (from Asymptote Labs, $5.5M seed): it captures your sessions across Claude Code, Cursor, Codex, OpenCode and 20+ other harnesses, then uses Jev to distill the high-signal fixes, corrections and debugging patterns into reusable skills — so every agent starts smarter than the last and you stop re-explaining your project every session. Free to start, no credit card, runs locally.",
     earning:"Sell AI coding-agent setup and memory-system services to dev teams — install Beacon, build their reusable skill library from past sessions, and charge per setup or on a monthly optimisation retainer.",
     url:"https://beacon.sh", trending:true, popularity:86,
-    img:"images/tools/beacon.jpg" }
+    img:"images/tools/beacon.jpg" },
+  { id:"vork", name:"Vork", category:"AI Video", price:"Free", tier:"free", rating:4.6,
+    desc:"Voyager's headless 3D and VFX engine built for AI agents: an agent writes a scene as code, renders it on the GPU with hardware ray tracing, checks the image and revises — no editor, timeline or window. Source-available and free during the research preview (v0.1.0, November 2026).",
+    earning:"Offer AI-rendered 3D product shots and VFX scenes to creators and brands — charge per shot or per project, with no video-model subscription to pay for.",
+    url:"https://voyager.so/vork", trending:true, popularity:84,
+    img:"images/tools/vork.jpg" }
 ];
