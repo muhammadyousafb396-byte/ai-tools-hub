@@ -362,5 +362,12 @@ const TOOLS = [
     desc:"Voyager's headless 3D and VFX engine built for AI agents: an agent writes a scene as code, renders it on the GPU with hardware ray tracing, checks the image and revises — no editor, timeline or window. Source-available and free during the research preview (v0.1.0, November 2026).",
     earning:"Offer AI-rendered 3D product shots and VFX scenes to creators and brands — charge per shot or per project, with no video-model subscription to pay for.",
     url:"https://voyager.so/vork", trending:true, popularity:84,
-    img:"images/tools/vork.jpg" }
+    img:"images/tools/vork.jpg" },
+
+  /* 2026-11-13: Tobira Site Agent — turns a website into an AI agent that sells to AI agents */
+  { id:"tobira-site-agent", name:"Tobira Site Agent", category:"AI Business", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"Tobira turns a company's website into an AI agent that answers and sells — to human visitors and to their AI agents (ChatGPT, Claude, Gemini, Grok and more). It books demos, sends trial links, takes orders and deposits, and drops lead summaries into WhatsApp, Telegram or your CRM, answering only from your own site, price lists, PDFs and FAQ. #1 Product of the Day on Product Hunt (Nov 6, 2026, 360 upvotes); live in about 2 minutes, and free with your own AI key for up to 1,000 conversations a month.",
+    earning:"Sell website-to-AI-agent setups to SaaS companies and local businesses — turn their site into an agent that books demos and takes orders from ChatGPT and Claude traffic, and charge a setup fee plus a monthly retainer.",
+    url:"https://tobira.ai", trending:true, popularity:88,
+    img:"images/tools/tobira-site-agent.jpg" }
 ];
