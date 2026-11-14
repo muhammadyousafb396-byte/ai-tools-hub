@@ -369,5 +369,12 @@ const TOOLS = [
     desc:"Tobira turns a company's website into an AI agent that answers and sells — to human visitors and to their AI agents (ChatGPT, Claude, Gemini, Grok and more). It books demos, sends trial links, takes orders and deposits, and drops lead summaries into WhatsApp, Telegram or your CRM, answering only from your own site, price lists, PDFs and FAQ. #1 Product of the Day on Product Hunt (Nov 6, 2026, 360 upvotes); live in about 2 minutes, and free with your own AI key for up to 1,000 conversations a month.",
     earning:"Sell website-to-AI-agent setups to SaaS companies and local businesses — turn their site into an agent that books demos and takes orders from ChatGPT and Claude traffic, and charge a setup fee plus a monthly retainer.",
     url:"https://tobira.ai", trending:true, popularity:88,
-    img:"images/tools/tobira-site-agent.jpg" }
+    img:"images/tools/tobira-site-agent.jpg" },
+
+  /* 2026-11-14: Plurai Simulation — self-improving simulation layer for AI agents */
+  { id:"plurai-simulation", name:"Plurai Simulation", category:"AI Coding", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"Plurai Simulation is the self-improving layer for AI agents (launched 11 Nov 2026, $13M seed led by Team8): one command in Claude Code, Codex or GitHub Copilot builds a digital twin of your agent and its world — simulated users, personas, mocked tools and databases in a sandbox — so it finds policy violations, hallucinations, broken tool calls and data leaks before real customers do. Free to start; #1 Product of the Day on Product Hunt.",
+    earning:"Sell AI-agent testing and hardening services to companies shipping agents — run Plurai simulations on their agents, fix the failures it finds before launch, and charge per audit or on a monthly reliability retainer.",
+    url:"https://www.plurai.ai", trending:true, popularity:88,
+    img:"images/tools/plurai-simulation.jpg" }
 ];
