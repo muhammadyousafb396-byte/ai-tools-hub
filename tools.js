@@ -376,5 +376,12 @@ const TOOLS = [
     desc:"Plurai Simulation is the self-improving layer for AI agents (launched 11 Nov 2026, $13M seed led by Team8): one command in Claude Code, Codex or GitHub Copilot builds a digital twin of your agent and its world — simulated users, personas, mocked tools and databases in a sandbox — so it finds policy violations, hallucinations, broken tool calls and data leaks before real customers do. Free to start; #1 Product of the Day on Product Hunt.",
     earning:"Sell AI-agent testing and hardening services to companies shipping agents — run Plurai simulations on their agents, fix the failures it finds before launch, and charge per audit or on a monthly reliability retainer.",
     url:"https://www.plurai.ai", trending:true, popularity:88,
-    img:"images/tools/plurai-simulation.jpg" }
+    img:"images/tools/plurai-simulation.jpg" },
+
+  /* 2026-11-15: Nod by n8n — free open-source personal AI agent with its own computer */
+  { id:"nod", name:"Nod", category:"AI Business", price:"Free", tier:"free", rating:4.6,
+    desc:"Nod is a free, open-source personal AI agent from n8n Labs (research preview, launched 10 Nov 2026): it runs on your own computer with its own browser and workspace, works inside your apps and on real websites, and finishes jobs instead of describing them — chasing invoices, prepping call briefs, cancelling trials and handling recurring admin. It asks before it sends, pays or deletes anything, and connects to 30+ AI providers (OpenAI, Anthropic, Gemini, OpenRouter) or a local model — you pay only your model provider. #2 Product of the Day on Product Hunt (Nov 11, 2026).",
+    earning:"Sell personal-agent setup and admin-automation services to freelancers and small businesses — install Nod, connect their apps and AI provider, and charge per setup or on a monthly automation retainer.",
+    url:"https://nod.n8n.io", trending:true, popularity:88,
+    img:"images/tools/nod.jpg" }
 ];
