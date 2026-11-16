@@ -383,5 +383,12 @@ const TOOLS = [
     desc:"Nod is a free, open-source personal AI agent from n8n Labs (research preview, launched 10 Nov 2026): it runs on your own computer with its own browser and workspace, works inside your apps and on real websites, and finishes jobs instead of describing them — chasing invoices, prepping call briefs, cancelling trials and handling recurring admin. It asks before it sends, pays or deletes anything, and connects to 30+ AI providers (OpenAI, Anthropic, Gemini, OpenRouter) or a local model — you pay only your model provider. #2 Product of the Day on Product Hunt (Nov 11, 2026).",
     earning:"Sell personal-agent setup and admin-automation services to freelancers and small businesses — install Nod, connect their apps and AI provider, and charge per setup or on a monthly automation retainer.",
     url:"https://nod.n8n.io", trending:true, popularity:88,
-    img:"images/tools/nod.jpg" }
+    img:"images/tools/nod.jpg" },
+
+  /* 2026-11-16: Rakazo — open-source self-hosted AI teammates (Grok Bot alternative) */
+  { id:"rakazo", name:"Rakazo", category:"AI Business", price:"Free", tier:"free", rating:4.6,
+    desc:"Rakazo is an open-source, self-hosted platform for persistent AI teammates (Apache-2.0, by Inbox Zero Inc.): each bot has its own memory, routines and computer, keeps working after you close the chat, and uses a browser and shell you can watch and take over. Bring your own model key (OpenAI, Anthropic, Google, OpenRouter or a local model) — no seat fee, you pay only the model and computer you use. Web, desktop and mobile apps; #1 Product of the Day on Product Hunt (Nov 15, 2026, 304 upvotes).",
+    earning:"Sell self-hosted AI-teammate setups to freelancers and small businesses — install Rakazo on their own server, set up bots with routines for admin, outreach and reporting, and charge per setup or on a monthly automation retainer.",
+    url:"https://rakazo.com", trending:true, popularity:88,
+    img:"images/tools/rakazo.jpg" }
 ];
