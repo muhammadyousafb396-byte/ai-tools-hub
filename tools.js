@@ -390,5 +390,12 @@ const TOOLS = [
     desc:"Rakazo is an open-source, self-hosted platform for persistent AI teammates (Apache-2.0, by Inbox Zero Inc.): each bot has its own memory, routines and computer, keeps working after you close the chat, and uses a browser and shell you can watch and take over. Bring your own model key (OpenAI, Anthropic, Google, OpenRouter or a local model) — no seat fee, you pay only the model and computer you use. Web, desktop and mobile apps; #1 Product of the Day on Product Hunt (Nov 15, 2026, 304 upvotes).",
     earning:"Sell self-hosted AI-teammate setups to freelancers and small businesses — install Rakazo on their own server, set up bots with routines for admin, outreach and reporting, and charge per setup or on a monthly automation retainer.",
     url:"https://rakazo.com", trending:true, popularity:88,
-    img:"images/tools/rakazo.jpg" }
+    img:"images/tools/rakazo.jpg" },
+
+  /* 2026-11-17: Zoom Slides — AI presentation maker that turns meetings into polished decks */
+  { id:"zoom-slides", name:"Zoom Slides", category:"AI Business", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"Zoom's AI presentation maker (part of the Zoom AI Productivity Suite, launched June 2026): it turns your meeting discussions, documents or a simple prompt into polished, on-brand, editable slide decks — no blank page, no note-taking. Built-in AI editing rewrites, expands or condenses content and adjusts tone, and decks stay fully compatible with PowerPoint (.pptx) with no file conversion. #1 Product of the Day on Product Hunt (Nov 16, 2026, 260 upvotes).",
+    earning:"Sell meeting-to-deck services to consultants, sales teams and agencies — turn their call recordings into client-ready pitch and recap decks, and charge per deck or on a monthly retainer.",
+    url:"https://www.zoom.com/en/products/ai-slides/", trending:true, popularity:88,
+    img:"images/tools/zoom-slides.jpg" }
 ];
