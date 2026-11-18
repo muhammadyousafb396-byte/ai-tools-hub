@@ -397,5 +397,12 @@ const TOOLS = [
     desc:"Zoom's AI presentation maker (part of the Zoom AI Productivity Suite, launched June 2026): it turns your meeting discussions, documents or a simple prompt into polished, on-brand, editable slide decks — no blank page, no note-taking. Built-in AI editing rewrites, expands or condenses content and adjusts tone, and decks stay fully compatible with PowerPoint (.pptx) with no file conversion. #1 Product of the Day on Product Hunt (Nov 16, 2026, 260 upvotes).",
     earning:"Sell meeting-to-deck services to consultants, sales teams and agencies — turn their call recordings into client-ready pitch and recap decks, and charge per deck or on a monthly retainer.",
     url:"https://www.zoom.com/en/products/ai-slides/", trending:true, popularity:88,
-    img:"images/tools/zoom-slides.jpg" }
+    img:"images/tools/zoom-slides.jpg" },
+
+  /* 2026-11-18: RankSpot — pay-as-you-go SEO and AI Search execution layer for agents */
+  { id:"rankspot", name:"RankSpot", category:"AI Business", price:"Pay-as-you-go", tier:"freemium", rating:4.6,
+    desc:"RankSpot is the SEO and AI Search execution layer for AI agents (#1 Product of the Day on Product Hunt, 17 Nov 2026, 352 upvotes): connect its MCP to Claude or ChatGPT in 2 minutes and your agent writes articles from what already ranks on Google in 100+ languages, publishes and indexes them, tracks rank and AI-answer visibility, and pitches ranking sites from your mailbox for backlinks. No subscription — $3 an article, $0.004 a prompt check, $0.09 a pitch; reading your data is free. Start with $1 of credit and a free article.",
+    earning:"Sell done-for-you SEO and AI-visibility services to small businesses — run RankSpot from Claude or ChatGPT for each client, publish ranking articles and win backlinks, and charge per article or on a monthly SEO retainer.",
+    url:"https://rankspot.ai", trending:true, popularity:88,
+    img:"images/tools/rankspot.jpg" }
 ];
