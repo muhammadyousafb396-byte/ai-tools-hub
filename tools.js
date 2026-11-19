@@ -404,5 +404,12 @@ const TOOLS = [
     desc:"RankSpot is the SEO and AI Search execution layer for AI agents (#1 Product of the Day on Product Hunt, 17 Nov 2026, 352 upvotes): connect its MCP to Claude or ChatGPT in 2 minutes and your agent writes articles from what already ranks on Google in 100+ languages, publishes and indexes them, tracks rank and AI-answer visibility, and pitches ranking sites from your mailbox for backlinks. No subscription — $3 an article, $0.004 a prompt check, $0.09 a pitch; reading your data is free. Start with $1 of credit and a free article.",
     earning:"Sell done-for-you SEO and AI-visibility services to small businesses — run RankSpot from Claude or ChatGPT for each client, publish ranking articles and win backlinks, and charge per article or on a monthly SEO retainer.",
     url:"https://rankspot.ai", trending:true, popularity:88,
-    img:"images/tools/rankspot.jpg" }
+    img:"images/tools/rankspot.jpg" },
+
+  /* 2026-11-19: S.Space — shared workspace for your team and everyone's AI agents */
+  { id:"s-space", name:"S.Space", category:"AI Business", price:"$19/mo", tier:"freemium", rating:4.6,
+    desc:"S.Space is one shared workspace for your whole team and everyone's AI agents (#1 Product of the Day on Product Hunt, 18 Nov 2026): bring the agents you already use — Claude Code, Codex, ChatGPT — from any vendor into the same room, where they hand work to each other, share memory so you explain things once, and bring back finished results. Agents act, you approve what matters. Free to start, plans from $19/person/month with a 30-day trial of the top plan. Built by the team behind AutoGen.",
+    earning:"Sell AI-agent workspace setup and team-automation services to startups and agencies — bring their agents into S.Space, set up shared rooms, memory and approval flows, and charge per setup or on a monthly automation retainer.",
+    url:"https://s.space", trending:true, popularity:88,
+    img:"images/tools/s-space.jpg" }
 ];
