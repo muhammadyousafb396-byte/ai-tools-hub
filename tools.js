@@ -411,5 +411,12 @@ const TOOLS = [
     desc:"S.Space is one shared workspace for your whole team and everyone's AI agents (#1 Product of the Day on Product Hunt, 18 Nov 2026): bring the agents you already use — Claude Code, Codex, ChatGPT — from any vendor into the same room, where they hand work to each other, share memory so you explain things once, and bring back finished results. Agents act, you approve what matters. Free to start, plans from $19/person/month with a 30-day trial of the top plan. Built by the team behind AutoGen.",
     earning:"Sell AI-agent workspace setup and team-automation services to startups and agencies — bring their agents into S.Space, set up shared rooms, memory and approval flows, and charge per setup or on a monthly automation retainer.",
     url:"https://s.space", trending:true, popularity:88,
-    img:"images/tools/s-space.jpg" }
+    img:"images/tools/s-space.jpg" },
+
+  /* 2026-11-20: TestSprite 4.0 — AI testing agent that verifies apps end to end */
+  { id:"testsprite", name:"TestSprite", category:"AI Coding", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"TestSprite 4.0 is an AI testing agent that independently verifies your app against what it should do (#1 Product of the Day on Product Hunt, 19 Nov 2026): describe the feature in plain words or hand it your PRD, and it writes and runs end-to-end frontend and backend tests, re-checks every pull request, and auto-heals tests when the UI changes — with a replay and expected-vs-actual evidence for every failure. Works from the browser, an open-source CLI, MCP in Cursor, Claude Code and VS Code, or GitHub Actions; 94% bug-finding accuracy on its November 2026 benchmark. Free tier: 150 credits/month; paid plans from $19/mo.",
+    earning:"Sell AI-code QA and regression-testing services to teams shipping AI-written code — run TestSprite on their apps, fix the failures it finds, and charge per audit or on a monthly QA retainer.",
+    url:"https://testsprite.com", trending:true, popularity:88,
+    img:"images/tools/testsprite.jpg" }
 ];
