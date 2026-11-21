@@ -418,5 +418,12 @@ const TOOLS = [
     desc:"TestSprite 4.0 is an AI testing agent that independently verifies your app against what it should do (#1 Product of the Day on Product Hunt, 19 Nov 2026): describe the feature in plain words or hand it your PRD, and it writes and runs end-to-end frontend and backend tests, re-checks every pull request, and auto-heals tests when the UI changes — with a replay and expected-vs-actual evidence for every failure. Works from the browser, an open-source CLI, MCP in Cursor, Claude Code and VS Code, or GitHub Actions; 94% bug-finding accuracy on its November 2026 benchmark. Free tier: 150 credits/month; paid plans from $19/mo.",
     earning:"Sell AI-code QA and regression-testing services to teams shipping AI-written code — run TestSprite on their apps, fix the failures it finds, and charge per audit or on a monthly QA retainer.",
     url:"https://testsprite.com", trending:true, popularity:88,
-    img:"images/tools/testsprite.jpg" }
+    img:"images/tools/testsprite.jpg" },
+
+  /* 2026-11-21: Saparo — AI shopping agent that stacks every deal before you pay */
+  { id:"saparo", name:"Saparo", category:"AI Business", price:"Free", tier:"free", rating:4.6,
+    desc:"Saparo is an AI shopping agent that stacks every deal before you pay (#1 Product of the Day on Product Hunt, 20 Nov 2026): tell it what you want and it searches US stores for the same item in your size, then tests promo codes, cashback, card rewards and gift-card routes together and ranks options by estimated total cost including shipping and tax — so you see one readable savings stack instead of a coupon guess. You approve the best route and pay yourself; the agent never takes your card. Free in Beta as a Chrome extension: 300 credits on signup (about 5 complete shopping tasks), then 60 free daily credits — no subscription, no success fees, no card required. An Arc'teryx jacket listed at $1,100 came out at $769; Nikes went from $124 to $82.",
+    earning:"Sell deal-hunting and smart-shopping services to online shoppers — run Saparo for clients before big purchases, stack every coupon, cashback and card reward, and charge a flat fee per order or a share of the savings you find.",
+    url:"https://saparo.ai", trending:true, popularity:88,
+    img:"images/tools/saparo.jpg" }
 ];
