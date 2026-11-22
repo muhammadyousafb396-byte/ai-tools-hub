@@ -425,5 +425,12 @@ const TOOLS = [
     desc:"Saparo is an AI shopping agent that stacks every deal before you pay (#1 Product of the Day on Product Hunt, 20 Nov 2026): tell it what you want and it searches US stores for the same item in your size, then tests promo codes, cashback, card rewards and gift-card routes together and ranks options by estimated total cost including shipping and tax — so you see one readable savings stack instead of a coupon guess. You approve the best route and pay yourself; the agent never takes your card. Free in Beta as a Chrome extension: 300 credits on signup (about 5 complete shopping tasks), then 60 free daily credits — no subscription, no success fees, no card required. An Arc'teryx jacket listed at $1,100 came out at $769; Nikes went from $124 to $82.",
     earning:"Sell deal-hunting and smart-shopping services to online shoppers — run Saparo for clients before big purchases, stack every coupon, cashback and card reward, and charge a flat fee per order or a share of the savings you find.",
     url:"https://saparo.ai", trending:true, popularity:88,
-    img:"images/tools/saparo.jpg" }
+    img:"images/tools/saparo.jpg" },
+
+  /* 2026-11-22: AlterContacts — voice-first AI client relationship assistant for advisors */
+  { id:"altercontacts", name:"AlterContacts", category:"AI Business", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"AlterContacts is a voice-first AI client relationship assistant for advisors (#1 Product of the Day on Product Hunt, 21 Nov 2026): speak a quick voice note after any client meeting and Alter files the details under the right client, watches their emails and calendar for life events and promises, and drafts the follow-up message in your tone for you to approve — it never sends anything itself. Free plan on iPhone (App Store, 175 countries); Pro adds more credits, and the launch-week code PRODUCTHUNT gets a month of Pro free.",
+    earning:"Sell client-relationship setup services to financial advisors, property agents and consultants — set up AlterContacts with their client book, Gmail and calendar, and charge per setup or on a monthly follow-up-automation retainer.",
+    url:"https://altercontacts.ai", trending:true, popularity:88,
+    img:"images/tools/altercontacts.jpg" }
 ];
