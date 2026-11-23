@@ -432,5 +432,12 @@ const TOOLS = [
     desc:"AlterContacts is a voice-first AI client relationship assistant for advisors (#1 Product of the Day on Product Hunt, 21 Nov 2026): speak a quick voice note after any client meeting and Alter files the details under the right client, watches their emails and calendar for life events and promises, and drafts the follow-up message in your tone for you to approve — it never sends anything itself. Free plan on iPhone (App Store, 175 countries); Pro adds more credits, and the launch-week code PRODUCTHUNT gets a month of Pro free.",
     earning:"Sell client-relationship setup services to financial advisors, property agents and consultants — set up AlterContacts with their client book, Gmail and calendar, and charge per setup or on a monthly follow-up-automation retainer.",
     url:"https://altercontacts.ai", trending:true, popularity:88,
-    img:"images/tools/altercontacts.jpg" }
+    img:"images/tools/altercontacts.jpg" },
+
+  /* 2026-11-23: Yoroll — build playable stories without a game engine */
+  { id:"yoroll", name:"Yoroll", category:"AI Video", price:"Free", tier:"free", rating:4.6,
+    desc:"Yoroll turns stories into playable, cinematic games without coding or a game engine (#1 Product of the Day on Product Hunt, 22 Nov 2026): start with a script, image or video clip, then direct the scenes, add player choices and build branching storylines with different endings — AI generates the scenes, characters and dialogue while you shape the story. One creator built the playable AI Odyssey film (140+ AI-generated scenes, 11 endings) solo in two days for about $250. Free to create and publish on the platform.",
+    earning:"Sell playable interactive-story services to brands, creators and educators — build branching mini-games, playable ads and interactive films on Yoroll and charge per project or per campaign.",
+    url:"https://yoroll.ai", trending:true, popularity:88,
+    img:"images/tools/yoroll.jpg" }
 ];
