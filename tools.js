@@ -439,5 +439,12 @@ const TOOLS = [
     desc:"Yoroll turns stories into playable, cinematic games without coding or a game engine (#1 Product of the Day on Product Hunt, 22 Nov 2026): start with a script, image or video clip, then direct the scenes, add player choices and build branching storylines with different endings — AI generates the scenes, characters and dialogue while you shape the story. One creator built the playable AI Odyssey film (140+ AI-generated scenes, 11 endings) solo in two days for about $250. Free to create and publish on the platform.",
     earning:"Sell playable interactive-story services to brands, creators and educators — build branching mini-games, playable ads and interactive films on Yoroll and charge per project or per campaign.",
     url:"https://yoroll.ai", trending:true, popularity:88,
-    img:"images/tools/yoroll.jpg" }
+    img:"images/tools/yoroll.jpg" },
+
+  /* 2026-11-24: Letter Visitors — know who's on your website, people, companies and AI agents */
+  { id:"letter-visitors", name:"Letter Visitors", category:"AI Business", price:"$100/mo", tier:"freemium", rating:4.6,
+    desc:"Letter Visitors names the people, companies and AI agents reading your website (#1 Product of the Day on Product Hunt, 23 Nov 2026): one script shows who visited, their company and title, and which AI agents (ChatGPT, Claude, Perplexity) read which pages — press ⌘L on any page to see its readers, replay their sessions, and get Slack alerts when ideal customers or investors arrive. AI-agent visibility is free; naming a person costs 50 tokens each, with 2,000 free tokens on signup and plans from $100/mo.",
+    earning:"Sell website-visitor intelligence to B2B founders — install Letter Visitors on client sites, surface their hottest visitors and AI citations, and charge per setup or a monthly lead-alert retainer.",
+    url:"https://letter.dev/visitors", trending:true, popularity:88,
+    img:"images/tools/letter-visitors.jpg" }
 ];
