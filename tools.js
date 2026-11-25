@@ -446,5 +446,12 @@ const TOOLS = [
     desc:"Letter Visitors names the people, companies and AI agents reading your website (#1 Product of the Day on Product Hunt, 23 Nov 2026): one script shows who visited, their company and title, and which AI agents (ChatGPT, Claude, Perplexity) read which pages — press ⌘L on any page to see its readers, replay their sessions, and get Slack alerts when ideal customers or investors arrive. AI-agent visibility is free; naming a person costs 50 tokens each, with 2,000 free tokens on signup and plans from $100/mo.",
     earning:"Sell website-visitor intelligence to B2B founders — install Letter Visitors on client sites, surface their hottest visitors and AI citations, and charge per setup or a monthly lead-alert retainer.",
     url:"https://letter.dev/visitors", trending:true, popularity:88,
-    img:"images/tools/letter-visitors.jpg" }
+    img:"images/tools/letter-visitors.jpg" },
+
+  /* 2026-11-25: distribution.dev — the ad network for developers, run by the publishers themselves */
+  { id:"distribution-dev", name:"distribution.dev", category:"AI Business", price:"Pay per campaign", tier:"paid", rating:4.6,
+    desc:"distribution.dev is the ad network for developers, built by the publishers themselves — daily.dev and DEV (dev.to) (#1 Product of the Day on Product Hunt, 24 Nov 2026): one campaign puts your ad in front of developers across dev sites, newsletters, AI chats and coding agents, with named placements, clearly labeled ads and reporting per site. The network serves 50M+ ad impressions a month, and an MCP server plus Partner API let AI assistants monitor performance and swap creatives for you. Publishers keep a transparent 70% revenue share.",
+    earning:"Sell developer-audience advertising to AI and devtool startups — run one distribution.dev campaign for a client across daily.dev, DEV and partner sites, and charge a setup fee plus a share of the campaign budget.",
+    url:"https://distribution.dev", trending:true, popularity:88,
+    img:"images/tools/distribution-dev.jpg" }
 ];
