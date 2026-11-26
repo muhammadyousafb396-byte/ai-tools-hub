@@ -453,5 +453,12 @@ const TOOLS = [
     desc:"distribution.dev is the ad network for developers, built by the publishers themselves — daily.dev and DEV (dev.to) (#1 Product of the Day on Product Hunt, 24 Nov 2026): one campaign puts your ad in front of developers across dev sites, newsletters, AI chats and coding agents, with named placements, clearly labeled ads and reporting per site. The network serves 50M+ ad impressions a month, and an MCP server plus Partner API let AI assistants monitor performance and swap creatives for you. Publishers keep a transparent 70% revenue share.",
     earning:"Sell developer-audience advertising to AI and devtool startups — run one distribution.dev campaign for a client across daily.dev, DEV and partner sites, and charge a setup fee plus a share of the campaign budget.",
     url:"https://distribution.dev", trending:true, popularity:88,
-    img:"images/tools/distribution-dev.jpg" }
+    img:"images/tools/distribution-dev.jpg" },
+
+  /* 2026-11-26: MAGI-2 — Sand AI's 480B flagship model for cinematic video generation */
+  { id:"magi-2", name:"MAGI-2", category:"AI Video", price:"$0.08/sec", tier:"paid", rating:4.7,
+    desc:"MAGI-2 is Sand AI's 480B-parameter flagship video generation model (#1 Product of the Day on Product Hunt, 25 Nov 2026): it creates up to 30 seconds of 1080p video with synchronized native audio from text, images or first/last frames, and its autoregressive design extends clips seamlessly for longer scenes. The earlier 114B preview is open-source on GitHub and Hugging Face; the 480B flagship runs through Sand.ai's developer platform and API at $0.08 per second.",
+    earning:"Sell cinematic AI video ads and short films to brands and creators — generate 30-second 1080p clips with synced audio on MAGI-2 and charge per video or per campaign.",
+    url:"https://sand.ai", trending:true, popularity:88,
+    img:"images/tools/magi-2.jpg" }
 ];
