@@ -460,5 +460,12 @@ const TOOLS = [
     desc:"MAGI-2 is Sand AI's 480B-parameter flagship video generation model (#1 Product of the Day on Product Hunt, 25 Nov 2026): it creates up to 30 seconds of 1080p video with synchronized native audio from text, images or first/last frames, and its autoregressive design extends clips seamlessly for longer scenes. The earlier 114B preview is open-source on GitHub and Hugging Face; the 480B flagship runs through Sand.ai's developer platform and API at $0.08 per second.",
     earning:"Sell cinematic AI video ads and short films to brands and creators — generate 30-second 1080p clips with synced audio on MAGI-2 and charge per video or per campaign.",
     url:"https://sand.ai", trending:true, popularity:88,
-    img:"images/tools/magi-2.jpg" }
+    img:"images/tools/magi-2.jpg" },
+
+  /* 2026-11-27: Hub — run 100 Claude Code or Codex sessions like 5 */
+  { id:"hub", name:"Hub", category:"AI Coding", price:"Free", tier:"free", rating:4.6,
+    desc:"Hub is the open-source coordinator for AI coding agents (#1 Product of the Day on Product Hunt, 26 Nov 2026): it runs hundreds of Claude Code or Codex sessions in parallel — each in its own git worktree — and brings you only the decisions, in your browser or Telegram. Free and Apache-2.0, self-hosted on your own Claude or ChatGPT subscription; the Icons8 team merged 546 pull requests through it in ten weeks.",
+    earning:"Sell multi-agent coding services to startups — run a fleet of Claude Code agents through Hub to ship features, fix bugs and rewrite legacy code, and charge per project or per sprint.",
+    url:"https://usehub.dev", trending:true, popularity:88,
+    img:"images/tools/hub.jpg" }
 ];
