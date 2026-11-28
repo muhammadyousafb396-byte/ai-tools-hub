@@ -467,5 +467,12 @@ const TOOLS = [
     desc:"Hub is the open-source coordinator for AI coding agents (#1 Product of the Day on Product Hunt, 26 Nov 2026): it runs hundreds of Claude Code or Codex sessions in parallel — each in its own git worktree — and brings you only the decisions, in your browser or Telegram. Free and Apache-2.0, self-hosted on your own Claude or ChatGPT subscription; the Icons8 team merged 546 pull requests through it in ten weeks.",
     earning:"Sell multi-agent coding services to startups — run a fleet of Claude Code agents through Hub to ship features, fix bugs and rewrite legacy code, and charge per project or per sprint.",
     url:"https://usehub.dev", trending:true, popularity:88,
-    img:"images/tools/hub.jpg" }
+    img:"images/tools/hub.jpg" },
+
+  /* 2026-11-28: Wizstar R1 — Seedance 2.0-level product videos at a lower cost */
+  { id:"wizstar-r1", name:"Wizstar R1", category:"AI Video", price:"Freemium", tier:"freemium", rating:4.6,
+    desc:"Wizstar R1 is Wizstar's in-house AI video model (#1 Product of the Day on Product Hunt, 27 Nov 2026, 269 upvotes): combine up to 9 reference images — product, character, scene — and generate 5–15-second 720p videos with native audio in 9:16 or 16:9. In Wizstar's internal tests it matched Seedance 2.0's usable-output rate for product videos, and it excels at animation and 3D content. New users get 20 free welcome credits, and eligible members get unlimited credit-free R1 generation for a benefit period; Starter is $16/mo billed annually.",
+    earning:"Sell product-video ads to e-commerce sellers — turn their product photos into 5–15s showcase and lifestyle clips with Wizstar R1 and charge per video or per campaign.",
+    url:"https://wizstar.com", trending:true, popularity:88,
+    img:"images/tools/wizstar-r1.jpg" }
 ];
